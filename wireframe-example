@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Wireframe to HTML</title>
+</head>
+<body>
+  <header>
+    <div class="logo-box">
+      <img src="https://loremflicker.com/50/50">
+    </div>
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>
