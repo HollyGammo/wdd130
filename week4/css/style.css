@@ -1,0 +1,45 @@
+body {
+  font-size: 16px;
+  margin: 0px;
+  pading: 0px;
+  background-color: blue;
+}
+
+header,
+footer {
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 0.5rem;
+  background-color: #eeeeee;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  grid-template-columns: 200px 1fr;
+}
+
+main {
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: red;
+}
+h1 {
+  color: green;
+  font-size: 2.2rem;
+}
+
+footer {
+  grid-template-columns: 1fr 300px;
+}
+
+/* class selectors */
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.logo {
+   width: 100px
+   height: auto 
+}
