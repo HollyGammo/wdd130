@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   margin: 0px;
   pading: 0px;
-  background-color: blue;
+  background-color: rgb(116, 129, 98);
 }
 
 header,
@@ -10,7 +10,7 @@ footer {
   margin: 0 auto;
   border: 1px solid black;
   padding: 0.5rem;
-  background-color: #eeeeee;
+  background-color: rgb(62, 80, 62);
   display: grid;
   align-items: center;
   justify-content: center;
@@ -23,23 +23,31 @@ header {
 main {
   margin: 1rem auto;
   padding: 1rem;
-  background-color: red;
+  background-color: rgb(121, 112, 96);
 }
-h1 {
-  color: green;
+h1,
+h2,
+h3 {
+  color: white;
   font-size: 2.2rem;
 }
-
+p {
+  color: white;
+}
 footer {
   grid-template-columns: 1fr 300px;
 }
 
 /* class selectors */
 .page {
-    max-width: 960px;
-    margin: 0 auto;
+  max-width: 960px;
+  margin: 0 auto;
 }
 .logo {
-   width: 100px
-   height: auto 
+  width: 100px;
+  height: auto;
+}
+.banner-image {
+  width: 900px;
+  height: auto;
 }
