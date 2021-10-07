@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   margin: 0px;
   padding: 0px;
-  background-color: rgb(116, 129, 98);
+  background-color: rgb(136, 150, 113);
 }
 
 header,
@@ -18,9 +18,14 @@ footer {
 }
 
 header {
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 120px 1fr;
 }
 
+header,
+a,
+link {
+  color: white;
+}
 main {
   margin: 1rem auto;
   padding: 1rem;
