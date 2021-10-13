@@ -46,7 +46,6 @@ main {
   display: block;
   padding: 12px;
   text-decoration: none;
-  background-color: rgb(121, 112, 96);
 }
 .main-nav a:hover {
   color: black;
