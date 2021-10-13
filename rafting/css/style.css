@@ -1,0 +1,80 @@
+body {
+  font-family: Barlow Condensed, Helvitica, sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(136, 150, 113);
+}
+
+header,
+footer {
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 0.5rem;
+  background-color: rgb(62, 80, 62);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  grid-template-columns: 120px 1fr;
+}
+
+header,
+a,
+link {
+  color: white;
+}
+main {
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: rgb(121, 112, 96);
+}
+.main-nav {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.main-nav li {
+  flex: 1 1 auto;
+}
+.main-nav a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  background-color: rgb(121, 112, 96);
+}
+.main-nav a:hover {
+  color: black;
+  background-color: white;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+  font-size: 2.2rem;
+}
+p {
+  color: white;
+}
+footer {
+  grid-template-columns: 1fr 300px;
+}
+
+/* class selectors */
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.logo {
+  width: 100px;
+  height: auto;
+}
+.banner-image {
+  width: 900px;
+  height: auto;
+}
