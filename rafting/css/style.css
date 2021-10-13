@@ -60,6 +60,10 @@ h4 {
 }
 p {
   color: white;
+  line-height: 1.5rem;
+}
+main img {
+  box-shadow: 1px 1px 1px black;
 }
 footer {
   grid-template-columns: 1fr 300px;
