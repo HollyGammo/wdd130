@@ -31,6 +31,26 @@ main {
   padding: 1rem;
   background-color: rgb(121, 112, 96);
 }
+.main-nav {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.main-nav li {
+  flex: 1 1 auto;
+}
+.main-nav a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  background-color: rgb(121, 112, 96);
+}
+.main-nav a:hover {
+  color: black;
+  background-color: white;
+}
 h1,
 h2,
 h3,
