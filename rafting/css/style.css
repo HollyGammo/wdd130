@@ -51,7 +51,10 @@ main {
   color: black;
   background-color: white;
 }
-h1,
+h1 {
+  color: white;
+  font-size: 3rem;
+}
 h2,
 h3,
 h4 {
@@ -78,6 +81,9 @@ footer {
 .logo {
   width: 100px;
   height: auto;
+}
+.name {
+  text-align: center;
 }
 .banner-image {
   width: 900px;
