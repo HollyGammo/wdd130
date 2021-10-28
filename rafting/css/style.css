@@ -1,7 +1,8 @@
 body {
   font-family: "Barlow Condensed", sans-serif;
   font-size: 19px;
-  max-width: 960px;
+  max-width: 1000px;
+  min-width: 1000px;
   margin: auto;
   padding: 0px;
   background-color: rgb(136, 150, 113);
@@ -28,8 +29,10 @@ link {
   color: white;
 }
 main {
-  padding: 20px;
   background-color: rgb(121, 112, 96);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .main-nav {
   list-style-type: none;
@@ -82,8 +85,9 @@ p {
 
 footer {
   grid-template-columns: 1fr 180px;
-  height: 50px;
-  margin: 5px 0px 0px 0px;
+  height: 75px;
+  padding-left: 20px;
+  margin-top: 5px;
 }
 
 /* class selectors */
@@ -106,8 +110,9 @@ footer {
 .banner-image {
   max-width: 920px;
   position: relative;
-  margin: 0;
+  margin: 20px;
   box-shadow: 0 0 20px black;
+  justify-items: center;
 }
 .callbutton {
   position: absolute;
@@ -128,9 +133,9 @@ footer {
 /*grid selectors*/
 .two {
   display: grid;
-  grid-template-columns: 1fr 500px;
+  grid-template-columns: 1fr 525px;
   grid-template-rows: 110px 230px;
-  margin-top: 35px;
+  margin-top: 45px;
 }
 .greenriver {
   grid-row: 2;
@@ -143,6 +148,7 @@ footer {
   grid-column: 2;
   border: 2px solid white;
   box-shadow: 0 0 10px black;
+  margin-right: 25px;
 }
 .life {
   grid-row: 1;
@@ -152,21 +158,23 @@ footer {
 
 .three {
   display: grid;
-  grid-template-columns: 500px 1fr;
+  grid-template-columns: 530px 1fr;
   grid-template-rows: 160px 180px;
-  margin-top: 35px;
+  margin-top: 45px;
 }
 .runriver {
   grid-row: 1;
   grid-column: 2;
   text-align: center;
   margin-top: 30px;
+  padding: 0px 25px 0px 25px;
 }
 .rapids {
   grid-row: 1/2;
   grid-column: 1;
   border: 2px solid white;
   box-shadow: 0 0 10px black;
+  margin-left: 25px;
 }
 .shuttle {
   grid-row: 2;
@@ -176,6 +184,7 @@ footer {
 }
 .enjoy {
   margin: 25px 150px 25px 150px;
+  padding-bottom: 50px;
 }
 .love {
   margin-top: 40px;
