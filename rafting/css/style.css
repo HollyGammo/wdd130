@@ -151,7 +151,7 @@ footer {
 .calm {
   grid-row: 1/2;
   grid-column: 2;
-  border: 2px solid rgb(49, 94, 43);
+  border: 2px solid rgb(54, 87, 50);
   box-shadow: 0 0 10px black;
   margin-right: 25px;
 }
@@ -177,7 +177,7 @@ footer {
 .rapids {
   grid-row: 1/2;
   grid-column: 1;
-  border: 2px solid rgb(49, 94, 43);
+  border: 2px solid rgb(54, 87, 50);
   box-shadow: 0 0 10px black;
   margin-left: 25px;
 }
