@@ -1,6 +1,6 @@
 body {
   font-family: "El Messiri", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   background-color: white;
   color: black;
   max-width: 1000px;
@@ -12,17 +12,21 @@ main {
 header,
 footer {
   background-color: rgb(241, 217, 184);
-  padding: 10px;
 }
 nav {
   background-color: rgb(241, 217, 184);
-  padding: 10px;
 }
 h1,
 h2,
 h3,
+h4,
+h5,
+h6 {
+  padding: 0px 20px 0px 20px;
+  font-size: 24px;
+}
 p {
-  padding: 10px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
 }
 .sssheet {
   margin-left: 25px;
