@@ -127,8 +127,6 @@ footer {
 /*grid selectors*/
 .two {
   display: grid;
-  grid-template-columns: 1fr 525px;
-  grid-template-rows: 110px 230px;
   margin-top: 45px;
 }
 .greenriver {
@@ -148,12 +146,11 @@ footer {
   grid-row: 1/2;
   grid-column: 1/2;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .three {
   display: grid;
-  grid-template-columns: 530px 1fr;
   grid-template-rows: 160px 180px;
   margin-top: 45px;
 }
