@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Barlow Condensed", sans-serif;
   font-size: 19px;
@@ -22,7 +27,6 @@ header {
   grid-template-columns: 1fr 550px 50px;
   margin: 0px 0px 5px 0px;
 }
-
 header,
 a,
 link {
@@ -30,9 +34,6 @@ link {
 }
 main {
   background-color: rgb(121, 112, 96);
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 .main-nav {
   list-style-type: none;
