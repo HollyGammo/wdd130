@@ -55,6 +55,9 @@ main {
   color: black;
   background-color: white;
 }
+.main-nav .active {
+  text-decoration: underline;
+}
 
 h1 {
   color: white;
