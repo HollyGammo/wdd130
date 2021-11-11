@@ -184,3 +184,12 @@ footer {
 .love {
   margin-top: 40px;
 }
+.gorge,
+.canyon {
+  margin-top: 10px;
+  position: relative;
+}
+.raft-title .faq-title {
+  position: absolute;
+  text-align: center;
+}
