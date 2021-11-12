@@ -210,10 +210,24 @@ footer {
   width: 960px;
 }
 
-/*pricing grid*/
+/*page 2*/
+.raftdes {
+  text-align: center;
+  padding: 30px 50px 40px 50px;
+  font-size: 32px;
+  line-height: 2.2rem;
+  text-shadow: 3px 3px 5px black;
+}
 .raft-choices {
   display: grid;
   grid-template-columns: 550px 1fr;
+}
+.araft,
+.braft,
+.craft,
+.draft {
+  border: 2px solid white;
+  border-radius: 15px;
 }
 
 /*page 3*/
