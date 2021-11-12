@@ -220,7 +220,6 @@ footer {
 }
 .raft-choices {
   display: grid;
-  grid-template-columns: 550px 1fr;
 }
 .araft,
 .braft,
@@ -228,6 +227,27 @@ footer {
 .draft {
   border: 2px solid white;
   border-radius: 15px;
+  padding: 20px;
+}
+.apic,
+.bpic,
+.cpic,
+.dpic {
+  grid-column: 1/2;
+}
+.amon,
+.bmon,
+.cmon,
+.dmon,
+.ades,
+.bdes,
+.cdes,
+.ddes,
+.aman,
+.bman,
+.cman,
+.dman {
+  grid-column: 2/3;
 }
 
 /*page 3*/
