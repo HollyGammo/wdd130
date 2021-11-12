@@ -31,6 +31,7 @@ link {
 }
 main {
   background-color: rgb(121, 112, 96);
+  padding-bottom: 35px;
 }
 
 /*navigation bar*/
@@ -79,6 +80,12 @@ h4 {
   color: white;
   font-size: 36px;
   text-shadow: 3px 3px 5px black;
+}
+h5 {
+  color: white;
+  font-size: 32px;
+  text-shadow: 3px 3px 5px black;
+  padding-bottom: 10px;
 }
 p {
   color: white;
@@ -189,6 +196,7 @@ footer {
 .canyon {
   margin-top: 10px;
   position: relative;
+  border-bottom: 15px solid rgb(62, 80, 62);
 }
 .grr {
   padding: 25px 0px 15px;
@@ -206,4 +214,33 @@ footer {
 .raft-choices {
   display: grid;
   grid-template-columns: 550px 1fr;
+}
+
+/*page 3*/
+.questions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 40px 50px 0px 50px;
+}
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h,
+.i,
+.j,
+.k,
+.l,
+.m,
+.n {
+  background: rgba(255, 255, 255, 0.25);
+  border: 3px solid rgb(62, 80, 62);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 5px 5px 15px black;
+  text-align: center;
 }
