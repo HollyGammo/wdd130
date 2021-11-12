@@ -212,11 +212,9 @@ footer {
 
 /*page 2*/
 .raftdes {
-  text-align: center;
   padding: 25px 55px 40px 55px;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 2rem;
-  text-shadow: 3px 3px 5px black;
 }
 .araft,
 .braft,
