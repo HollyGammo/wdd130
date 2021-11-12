@@ -237,7 +237,7 @@ footer {
 .l,
 .m,
 .n {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.15);
   border: 3px solid rgb(62, 80, 62);
   border-radius: 10px;
   padding: 20px;
