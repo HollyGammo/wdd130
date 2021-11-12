@@ -219,14 +219,16 @@ footer {
   text-shadow: 3px 3px 5px black;
 }
 .raft-choices {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 450px 1fr;
-  grid-template-rows: 250px;
+  grid-template-rows: 250px; */
 }
 .araft,
 .braft,
 .craft,
 .draft {
+  display: grid;
+  grid-template-columns: 450px 1fr;
   border: 2px solid white;
   border-radius: 15px;
   padding: 20px;
