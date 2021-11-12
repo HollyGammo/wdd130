@@ -79,8 +79,6 @@ h4 {
   color: white;
   font-size: 36px;
   text-shadow: 3px 3px 5px black;
-  display: grid;
-  grid-template-columns: 550px 1fr;
 }
 p {
   color: white;
@@ -205,18 +203,7 @@ footer {
 }
 
 /*pricing grid*/
-h4 {
-  grid-column: 1/2;
-}
-.twoman,
-.fourman,
-.sevenman,
-.tenman {
-  grid-column: 1/2;
-}
-.twp,
-.fp,
-.sp,
-.tp {
-  grid-column: 2/3;
+.raft-choices {
+  display: grid;
+  grid-template-columns: 550px 1fr;
 }
