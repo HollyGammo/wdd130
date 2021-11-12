@@ -220,6 +220,8 @@ footer {
 }
 .raft-choices {
   display: grid;
+  grid-template-columns: 450px 1fr;
+  grid-template-rows: 250px;
 }
 .araft,
 .braft,
@@ -228,6 +230,25 @@ footer {
   border: 2px solid white;
   border-radius: 15px;
   padding: 20px;
+}
+.amon,
+.bmon,
+.cmon,
+.dmon {
+  grid-column: 2/3;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px red;
+  padding: 10px 10px 10px 10px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 3px solid black;
+  border-radius: 15px;
+}
+.apic,
+.bpic,
+.cpic,
+.dpic {
+  grid-column: 1/2;
 }
 
 /*page 3*/
