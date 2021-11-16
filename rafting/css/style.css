@@ -242,10 +242,13 @@ footer {
   grid-column: 1/2;
   padding-top: 20px;
 }
-.trailor-truck,
+.trailor-truck {
+  text-align: center;
+  margin: 0px 100px 0px 100px;
+}
 .raft-stack {
   text-align: center;
-  margin: 0px 170px 0px 170px;
+  margin: 0px 160px 0px 170px;
 }
 .trailor {
   margin: 30px;
