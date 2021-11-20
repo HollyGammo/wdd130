@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 18px;
+    max-width: 960px;
+    min-width: 960px;
+    margin: auto;
+    background-color: ;
+  }
+  header,
+  footer {
+    padding: 0.5rem;
+    background-color: rgb(62, 80, 62);
+    display: grid;
+    align-items: center;
+}
+
+/*navigation bar*/
+.main-nav {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+  }
+  .main-nav li {
+    flex: 1 1 auto;
+  }
+  .main-nav a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    background-color: rgb(136, 150, 113);
+    border: 1px solid rgba(255, 255, 255, 0.397);
+  }
+  .main-nav a:hover {
+    color: black;
+    background-color: white;
+  }
+  .main-nav .active {
+    text-decoration: underline;
