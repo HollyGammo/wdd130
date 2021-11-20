@@ -13,8 +13,9 @@
   }
   header,
   footer {
+    color: white;
     padding: 0.5rem;
-    background-color: rgb(62, 80, 62);
+    background-color: black;
     display: grid;
     align-items: center;
 }
@@ -35,8 +36,8 @@
     display: block;
     padding: 12px;
     text-decoration: none;
-    background-color: rgb(136, 150, 113);
-    border: 1px solid rgba(255, 255, 255, 0.397);
+    background-color: black;
+    border: 1px solid white;
   }
   .main-nav a:hover {
     color: black;
