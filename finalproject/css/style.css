@@ -89,8 +89,8 @@ link {
   border: 1px solid white;
 }
 .main-nav a:hover {
-  color: black;
-  background-color: rgb(230, 105, 22);
+  color: white;
+  background-color: rgb(207, 102, 31);
 }
 .main-nav .active {
   text-decoration: underline;
