@@ -24,7 +24,8 @@ main {
   margin-top: 5px;
 }
 h2,
-h3 {
+h3,
+li {
   color: white;
   padding: 20px 30px 10px 30px;
 }
