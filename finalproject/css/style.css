@@ -48,6 +48,8 @@ header {
   grid-template-columns: 1fr 400px 40px;
   align-items: center;
   margin: 0px 0px 0px 0px;
+  border-top: 5px solid rgb(62, 160, 62);
+  border-bottom: 5px solid rgb(62, 160, 62);
 }
 header,
 a,
