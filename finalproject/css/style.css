@@ -18,10 +18,10 @@ footer {
   background-color: black;
   display: grid;
   align-items: center;
-  margin: 0px 0px 4px;
 }
 main {
   background-color: black;
+  margin-top: 5px;
 }
 h2 {
   color: white;
@@ -34,9 +34,10 @@ p {
 }
 footer {
   grid-template-columns: 1fr 180px;
+  grid-template-rows: 43px;
   height: 75px;
-  padding-left: 20px;
-  margin-top: 10px;
+  padding: 20px;
+  margin-top: 5px;
 }
 
 /*header*/
@@ -46,7 +47,9 @@ header {
   display: grid;
   grid-template-columns: 1fr 400px 40px;
   align-items: center;
-  margin-top: 0;
+  margin: 0px 0px 0px 0px;
+  border-top: 5px solid rgb(62, 160, 62);
+  border-bottom: 5px solid rgb(62, 160, 62);
 }
 header,
 a,
@@ -61,6 +64,9 @@ link {
 }
 .logo {
   padding: 5px 0px 5px 30px;
+}
+.scales {
+  margin-bottom: -10px;
 }
 
 /*navigation bar*/
