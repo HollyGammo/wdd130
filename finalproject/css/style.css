@@ -23,7 +23,8 @@ main {
   background-color: black;
   margin-top: 5px;
 }
-h2 {
+h2,
+h3 {
   color: white;
   padding: 20px 30px 10px 30px;
 }
