@@ -9,7 +9,7 @@ body {
   max-width: 1020px;
   min-width: 1020px;
   margin: auto;
-  background-color: rgb(155, 59, 24);
+  background-color: rgb(182, 68, 26);
 }
 header,
 footer {
@@ -66,7 +66,7 @@ link {
   padding: 5px 0px 5px 30px;
 }
 .scales {
-  margin-bottom: -10px;
+  margin-bottom: -5px;
 }
 
 /*navigation bar*/
