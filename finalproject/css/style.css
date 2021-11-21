@@ -48,8 +48,8 @@ header {
   grid-template-columns: 1fr 400px 40px;
   align-items: center;
   margin: 0px 0px 0px 0px;
-  border-top: 5px solid rgb(62, 160, 62);
-  border-bottom: 5px solid rgb(62, 160, 62);
+  border-bottom: 10px solid rgb(66, 185, 66);
+  border-top: 10px solid rgb(66, 185, 66);
 }
 header,
 a,
@@ -85,7 +85,7 @@ link {
   display: block;
   padding: 5px 5px 6px 5px;
   text-decoration: none;
-  background-color: rgb(62, 160, 62);
+  background-color: rgb(66, 185, 66);
   border: 1px solid white;
 }
 .main-nav a:hover {
