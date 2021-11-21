@@ -23,9 +23,20 @@ footer {
 main {
   background-color: black;
 }
+h2 {
+  color: white;
+  padding: 20px 30px 10px 30px;
+}
 p {
   color: white;
   font-size: 18px;
+  padding: 0px 30px 20px 30px;
+}
+footer {
+  grid-template-columns: 1fr 180px;
+  height: 75px;
+  padding-left: 20px;
+  margin-top: 10px;
 }
 
 /*header*/
