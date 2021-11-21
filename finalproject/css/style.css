@@ -23,6 +23,10 @@ footer {
 main {
   background-color: black;
 }
+p {
+  color: white;
+  font-size: 18px;
+}
 
 /*header*/
 header {
@@ -69,7 +73,7 @@ link {
 }
 .main-nav a:hover {
   color: black;
-  background-color: white;
+  background-color: rgb(230, 105, 22);
 }
 .main-nav .active {
   text-decoration: underline;
