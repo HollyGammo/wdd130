@@ -103,5 +103,10 @@ link {
   border-top: 10px dotted #ad612e;
   border-bottom: 10px dotted #ad612e;
 }
+.copper {
+  border: 5px solid rgb(70, 182, 73);
+  box-shadow: 0 0 10px white;
+}
+
 /*Page 2 Anatomy*/
 /*Page 3 Bite*/
