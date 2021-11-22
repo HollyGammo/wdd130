@@ -91,7 +91,7 @@ link {
   color: black;
 }
 .main-nav a:hover {
-  color: black;
+  color: white;
   background-color: #ad612e;
 }
 .main-nav .active {
