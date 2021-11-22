@@ -24,8 +24,7 @@ main {
   margin-top: 5px;
 }
 h2,
-h3,
-li {
+h3 {
   color: white;
   padding: 20px 30px 10px 30px;
 }
@@ -96,4 +95,9 @@ link {
 }
 .main-nav .active {
   text-decoration: underline;
+}
+
+/*Page 3 Bite*/
+li {
+  color: white;
 }
