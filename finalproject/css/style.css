@@ -9,7 +9,7 @@ body {
   max-width: 1020px;
   min-width: 1020px;
   margin: auto;
-  background-color: rgb(150, 84, 40);
+  background-color: #ad612e;
 }
 header,
 footer {
@@ -49,8 +49,8 @@ header {
   grid-template-columns: 1fr 400px 40px;
   align-items: center;
   margin: 0px 0px 0px 0px;
-  border-bottom: 10px solid rgb(66, 185, 66);
-  border-top: 10px solid rgb(66, 185, 66);
+  border-bottom: 10px solid rgb(70, 182, 73);
+  border-top: 10px solid rgb(70, 182, 73);
 }
 header,
 a,
@@ -86,16 +86,22 @@ link {
   display: block;
   padding: 5px 5px 6px 5px;
   text-decoration: none;
-  background-color: rgb(66, 185, 66);
+  background-color: rgb(70, 182, 73);
   border: 1px solid white;
+  color: black;
 }
 .main-nav a:hover {
   color: black;
-  background-color: rgb(207, 102, 31);
+  background-color: #ad612e;
 }
 .main-nav .active {
   text-decoration: underline;
 }
 
+/*Page 1 Home*/
+.snakepot {
+  border-top: 10px dotted #ad612e;
+  border-bottom: 10px dotted #ad612e;
+}
 /*Page 2 Anatomy*/
 /*Page 3 Bite*/
