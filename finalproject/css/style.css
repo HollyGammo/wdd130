@@ -27,6 +27,9 @@ h2,
 h3 {
   color: white;
   padding: 20px 30px 10px 30px;
+  font-size: 32px;
+  background-color: rgb(0, 162, 184, 0.75);
+  padding: 10px;
 }
 p {
   color: white;
@@ -103,9 +106,14 @@ link {
   border-top: 10px dotted #ad612e;
   border-bottom: 10px dotted #ad612e;
 }
-.copper {
+.nonvenom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.nonvenom img {
   border: 5px solid rgb(70, 182, 73);
-  box-shadow: 0 0 10px white;
+}
+.nonvenom h3 {
 }
 
 /*Page 2 Anatomy*/
