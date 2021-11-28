@@ -192,28 +192,29 @@ link {
 .do p {
   background-color: rgb(204, 180, 136);
   color: black;
-  grid-column: 1/2;
 }
 .dont h3,
 .dont p {
   background-color: rgb(162, 187, 162);
   color: black;
-  grid-column: 2/3;
 }
 .do p,
 .dont p {
   color: black;
+  font-size: 20px;
+  line-height: 2em;
 }
-.do,
-.dont {
+.tips {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.do h3,
-.dont h3 {
-  grid-row: 1/2;
+.do {
+  grid-column: 1/2;
+  width: 460px;
+  height: 500px;
 }
-.do p,
-.dont p {
-  grid-row: 2/3;
+.dont {
+  grid-column: 2/3;
+  width: 460px;
+  height: 500px;
 }
