@@ -121,7 +121,7 @@ link {
   padding: 65px 40px 0px 0px;
 }
 .three-snakes h3 {
-  padding: 20px 0px 20px;
+  padding: 20px 0px 15px;
 }
 .three-snakes img {
   border: 5px solid rgb(70, 182, 73);
@@ -135,16 +135,22 @@ link {
 
 /*Non-Venomous*/
 #sec-six {
-  margin: 50px;
+  padding: 20px 0px 20px;
+  font-size: 1.5em;
+  margin-top: 20px;
 }
 .nonvenom {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 360px 1fr 360px;
   text-align: center;
 }
 .nonvenom img {
   border: 5px solid rgb(70, 182, 73);
   margin-top: 10px;
+}
+.nonvenom h5 {
+  margin-bottom: 20px;
+  background-color: rgba(2, 110, 60, 0.5);
 }
 
 /*Page 2 Anatomy*/
