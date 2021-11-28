@@ -5,20 +5,12 @@
 }
 body {
   font-family: "Federo", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   max-width: 1020px;
   min-width: 1020px;
   margin: auto;
   background-color: #ad612e;
-}
-header,
-footer {
-  color: white;
-  padding: 0.5rem;
-  background-color: black;
-  display: grid;
-  align-items: center;
 }
 main {
   background-color: black;
@@ -33,9 +25,13 @@ h4 {
   margin-left: 30px;
 }
 p {
-  color: white;
-  font-size: 18px;
   padding: 0px 30px 20px 30px;
+}
+header,
+footer {
+  background-color: black;
+  display: grid;
+  align-items: center;
 }
 footer {
   grid-template-columns: 1fr 180px;
@@ -47,18 +43,9 @@ footer {
 
 /*header*/
 header {
-  background-color: black;
-  display: grid;
   grid-template-columns: 1fr 400px 40px;
-  align-items: center;
-  margin: 0px 0px 0px 0px;
   border-bottom: 10px solid rgb(70, 182, 73);
   border-top: 10px solid rgb(70, 182, 73);
-}
-header,
-a,
-link {
-  color: white;
 }
 .top-bar {
   display: flex;
@@ -78,9 +65,7 @@ link {
   list-style-type: none;
   display: flex;
   padding: 20px 20px 20px 0px;
-  margin: 0;
   text-align: center;
-  font-size: 20px;
 }
 .main-nav li {
   flex: 1 1 auto;
@@ -88,6 +73,7 @@ link {
 .main-nav a {
   display: block;
   padding: 5px 5px 6px 5px;
+  font-size: 20px;
   text-decoration: none;
   background-color: rgb(70, 182, 73);
   border: 1px solid white;
@@ -222,9 +208,7 @@ link {
 }
 .tips {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   margin: 30px 20px 0px 30px;
-  gap: 2px;
   padding-bottom: 30px;
 }
 .tips h3 {
