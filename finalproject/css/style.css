@@ -180,6 +180,21 @@ link {
   border: 5px solid rgb(70, 182, 73);
   margin: 30px 0px 30px 40px;
 }
+.more-facts {
+  text-align: center;
+}
+.more-facts h4 {
+  font-size: 24px;
+  background-color: rgb(148, 41, 14);
+  margin-left: 0px;
+  padding: 6px 0px 6px;
+}
+.more-facts p {
+  padding: 2px 50px 30px 50px;
+}
+.more-facts h5 {
+  font-size: 22px;
+}
 
 /*Page 3 Bite*/
 .bite-marks img {
