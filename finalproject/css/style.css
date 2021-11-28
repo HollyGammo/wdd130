@@ -208,7 +208,6 @@ link {
 .dont {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(7, 1fr);
 }
 .do h3,
 .dont h3 {
