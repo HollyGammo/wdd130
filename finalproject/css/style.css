@@ -43,7 +43,7 @@ footer {
 
 /*header*/
 header {
-  grid-template-columns: 1fr 400px 40px;
+  grid-template-columns: 1fr 375px 10px;
   border-bottom: 10px solid rgb(70, 182, 73);
   border-top: 10px solid rgb(70, 182, 73);
 }
