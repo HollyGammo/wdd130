@@ -169,14 +169,15 @@ label {
 input {
   font: 18px sans-serif;
   width: 250px;
-  border: 1px solid rgb(1, 50, 58);
+  border: 1px solid #ad612e;
   background-color: white;
 }
 button {
   background-color: rgb(70, 182, 73);
-  color: white;
+  color: black;
   padding: 5px 10px;
   font-weight: bold;
+  border: 1px solid white;
 }
 
 /*Page 2 Anatomy*/
