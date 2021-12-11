@@ -109,7 +109,7 @@ header {
   padding: 20px 0px 15px;
 }
 .three-snakes img {
-  border: 5px solid rgb(70, 182, 73);
+  border: 2.5px solid rgb(70, 182, 73);
   text-align: center;
   margin-bottom: 30px;
 }
@@ -131,7 +131,7 @@ header {
   text-align: center;
 }
 .nonvenom img {
-  border: 5px solid rgb(70, 182, 73);
+  border: 2.5px solid rgb(70, 182, 73);
   margin-top: 10px;
 }
 .nonvenom h5 {
@@ -203,7 +203,7 @@ button {
   background-color: rgb(148, 41, 14);
 }
 .anatomy-page img {
-  border: 5px solid rgb(70, 182, 73);
+  border: 2.5px solid rgb(70, 182, 73);
   margin: 30px 0px 30px 40px;
 }
 .more-facts {
@@ -231,7 +231,7 @@ button {
   margin: 0px 30px 0px 27px;
 }
 .bite-marks img {
-  border: 5px solid rgb(70, 182, 73);
+  border: 2.5px solid rgb(70, 182, 73);
   margin: 0px 5.5px 0px 5.5px;
 }
 .do,
@@ -259,12 +259,12 @@ button {
 }
 .do {
   grid-column: 1/2;
-  border: 5px solid rgb(70, 182, 73);
+  border: 2.5px solid rgb(70, 182, 73);
   background-color: rgb(236, 248, 236);
 }
 .dont {
   grid-column: 2/3;
-  border: 5px solid #ad612e;
+  border: 2.5px solid #ad612e;
   background-color: rgb(255, 226, 217);
 }
 .symptoms h4 {
