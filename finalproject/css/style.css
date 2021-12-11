@@ -141,6 +141,43 @@ header {
   padding: 2px 0px 6px;
 }
 
+/*Form*/
+form {
+  margin: 0 auto;
+  width: 900px;
+  padding: 30px;
+  border: 3px solid rgb(70, 182, 73);
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 0px #ad612e;
+  margin-bottom: 25px;
+}
+h6 {
+  font-size: 24px;
+}
+ul {
+  list-style: none;
+}
+li {
+  padding: 10px;
+}
+label {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+}
+input {
+  font: 18px sans-serif;
+  width: 250px;
+  border: 1px solid rgb(1, 50, 58);
+  background-color: white;
+}
+button {
+  background-color: rgb(70, 182, 73);
+  color: white;
+  padding: 5px 10px;
+}
+
 /*Page 2 Anatomy*/
 .one,
 .two,
