@@ -43,7 +43,8 @@ footer {
 
 /*header*/
 header {
-  grid-template-columns: 1fr 375px 10px;
+  grid-template-columns: 1fr 380px 40px;
+  grid-template-rows: 175px;
   border-bottom: 10px solid rgb(70, 182, 73);
   border-top: 10px solid rgb(70, 182, 73);
 }
@@ -54,7 +55,7 @@ header {
   padding: 30px 0px 0px 50px;
 }
 .logo {
-  padding: 5px 0px 5px 30px;
+  margin: 5px 0px 5px 30px;
 }
 .scales {
   margin-bottom: -5px;
