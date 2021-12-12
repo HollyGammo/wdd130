@@ -44,7 +44,6 @@ footer {
 /*header*/
 header {
   grid-template-columns: 1fr 380px 40px;
-  grid-template-rows: 175px;
   border-bottom: 10px solid rgb(70, 182, 73);
   border-top: 10px solid rgb(70, 182, 73);
 }
