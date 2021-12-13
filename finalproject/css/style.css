@@ -229,8 +229,8 @@ button {
 /*Page 3 Bite*/
 .bite-marks {
   display: grid;
-  grid-template-columns: 365px 240px 355px;
-  margin: 0px 30px 0px 27px;
+  grid-template-columns: 368px 243px 355px;
+  margin: 0px 30px 0px 20px;
 }
 .bite-marks img {
   border: 5px solid rgb(70, 182, 73);
@@ -250,7 +250,7 @@ button {
 }
 .tips {
   display: grid;
-  margin: 30px 20px 0px 30px;
+  margin: 30px 25px 0px 25px;
   padding-bottom: 30px;
 }
 .tips h3 {
@@ -261,12 +261,12 @@ button {
 }
 .do {
   grid-column: 1/2;
-  border: 5px solid rgb(70, 182, 73);
+  border: 4.5px solid rgb(70, 182, 73);
   background-color: rgb(236, 248, 236);
 }
 .dont {
   grid-column: 2/3;
-  border: 5px solid #ad612e;
+  border: 4.5px solid #ad612e;
   background-color: rgb(255, 226, 217);
 }
 .symptoms h4 {
