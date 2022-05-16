@@ -1,0 +1,66 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    padding-top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  header, footer {
+    color: white;  
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(172, 112, 154);
+  }
+  
+  h1 {
+      font-size: 60px;
+  }
+
+  h2 {
+      font-size: 48px; 
+      padding: 20px;
+  }
+  main {
+
+    color: black;
+    background: radial-gradient(#e379b0, #9ad9e2);
+    align-content: center;
+  }
+
+  footer {
+    font-size: 24px;  
+  }
+
+  .icons {
+    display: flex;
+    width: 1050px;
+    height: 250px;
+    background-color: white;
+    border: 6px solid black;
+    margin-bottom: 75px;
+    border-radius: 1.2rem;
+  }
+
+  .icecow {
+    margin-bottom: 75px;
+  }
+  .icecow img {
+    padding: 10px;
+  }
+
+  .calf {
+     padding-bottom: 50px; 
+  }
+
+  .calf img {
+    border: 12px solid black; 
+    border-radius: 2rem;
+  }
+ 
