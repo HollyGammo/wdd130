@@ -40,10 +40,21 @@
     .event {
         grid-row: 5/6;
     }
-    
+        
     .weather {
+        grid-template-columns: 100px 1fr;
         grid-column: 2/3;
         grid-row: 5/6;
+    }
+
+    .weather p {
+        font-size: 1.1rem;
+    }
+
+    @media only screen and (min-width: 730px) {
+        .weather {
+             grid-template-columns: 100px 1fr;
+        }
     }
     
     .news {
@@ -56,10 +67,11 @@
         flex-direction: column;
         grid-column: 1/3;
         grid-row: 3/4;
+        padding: 30px 50px;
     }
 
-.join-image {
-    width: 
+.join-cta, .hero-cta {
+    font-size: 1.3rem; 
 }
     
     .spotlight {

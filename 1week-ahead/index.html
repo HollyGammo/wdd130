@@ -90,12 +90,9 @@
         <div class="event">
           <h2>Hill Climber 5K</h2>
           <picture id="run">
-            <source
-              srcset="images/run250.webp"
-              media="(min-width: 640px) and (max-width: 1049px)"
-            />
+            <source srcset="images/run540.webp" media="(max-width: 1049px)" />
             <source srcset="images/run250.webp" media="(min-width: 1050px)" />
-            <img src="images/run300.webp" alt="Hill CLimber 5K" />
+            <img src="images/run250.webp" alt="Hill CLimber 5K" />
           </picture>
           <p>
             The annual Hill Climber 5K. Climb the beautiful hills with us July
@@ -105,7 +102,9 @@
         <div class="weather">
           <h2>Weather</h2>
           <section class="temp-box">
-            <img class="wind" src="images/windy150.webp" alt="Girl in Wind" />
+            <picture class="wind">
+              <img src="images/windy150.webp" alt="Girl in the Wind" />
+            </picture>
             <p class="temp">54° F</p>
             <p class="condition">Windy</p>
           </section>
@@ -172,13 +171,14 @@
             <h3>Hollyhill Historic Railroad</h3>
             <picture id="train-image">
               <source
-                srcset="images/train250.webp"
+                srcset="images/train500.webp"
                 media="(min-width: 640px) and (max-width: 1049px)"
               />
               <source
                 srcset="images/train250.webp"
-                media="(min-width: 1050px)"
+                media="(min-width: 640px) and (max-width: 1049px)"
               />
+              <source srcset="images/train250.webp" />
               <img src="images/train300.webp" alt="Hollyhill Railroad" />
             </picture>
             <p>Scenic train rides tickets $29.</p>

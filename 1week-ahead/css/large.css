@@ -67,6 +67,10 @@
         grid-row: 3/4;
         padding: 20px;
     }
+
+    .join-cta {
+        font-size: .9rem; 
+    }
     
     .spotlight {
         grid-column: 4/5;

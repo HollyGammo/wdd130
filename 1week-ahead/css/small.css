@@ -202,6 +202,7 @@ nav ul.open {display: block;
      border-radius: .5rem;
      box-shadow: 0 0 15px rgb(33, 33, 33);
      padding: 6px 15px;
+     fontsize: 1rem;
      font-weight: bold;
      text-decoration: none;
  }
@@ -235,10 +236,12 @@ nav ul.open {display: block;
 }
 
 .weather p {
-    padding: 20px;
-    font-size: 1.5rem;
+    padding-left: 10px;
+    font-size: 1.3rem;
     font-weight: bold;
 }
+
+
 
 .condition {
     grid-column: 2/3;
