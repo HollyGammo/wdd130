@@ -30,14 +30,14 @@
 
   <body>
     <header>
-      <div>
-        <img
-          id="toplogo"
-          src="images/hollylogo.svg"
-          alt="Hollyhill Logo"
-          width="150"
+      <picture id="toplogo">
+        <source
+          srcset="images/logo125.webp"
+          media="(min-width: 640px) and (max-width: 1049px)"
         />
-      </div>
+        <source srcset="images/logo150.webp" media="(min-width: 1050px)" />
+        <img src="images/logo75.webp" alt="Hollyhill Logo" />
+      </picture>
       <h1>
         HOLLYHILL<span id="smtitle"><br />Chamber of Commerce</span>
       </h1>
@@ -74,28 +74,42 @@
     <main>
       <section class="boxes">
         <div class="hero">
-          <img class="hero-image" src="images/town.jpg" alt="Hillside" />
+          <picture id="hero-image">
+            <source
+              srcset="images/town960.webp"
+              media="(min-width: 640px) and (max-width: 1049px)"
+            />
+            <source srcset="images/town720.webp" media="(min-width: 1050px)" />
+            <img src="images/town640.webp" alt="Town of Hollyhill" />
+          </picture>
           <h2 class="hero-title">Welcome to Hollyhill!</h2>
           <button class="hero-cta">
             <a href="join.html">Join the Chamber</a>
           </button>
         </div>
         <div class="event">
-          <h2>"The Hills Are Alive" Marathon</h2>
-          <img src="images/run.svg" alt="Marathon" />
+          <h2>Hill Climber 5K</h2>
+          <picture id="run">
+            <source
+              srcset="images/run250.webp"
+              media="(min-width: 640px) and (max-width: 1049px)"
+            />
+            <source srcset="images/run250.webp" media="(min-width: 1050px)" />
+            <img src="images/run300.webp" alt="Hill CLimber 5K" />
+          </picture>
           <p>
-            Come support our annual community marathon and get to know your
-            neighbors better. Money raised will go to help rebuild the clock
-            tower in the center of Hollyhill.
+            The annual Hill Climber 5K. Climb the beautiful hills with us July
+            24th at 7 am.
           </p>
         </div>
         <div class="weather">
           <h2>Weather</h2>
-          <div class="temp-box">
-            <img class="wind" src="images/windy.svg" alt="Girl in Wind" />
+          <section class="temp-box">
+            <img class="wind" src="images/windy150.webp" alt="Girl in Wind" />
             <p class="temp">54° F</p>
             <p class="condition">Windy</p>
-          </div>
+          </section>
+
           <hr />
           <ul class="speed-chill">
             <li>Wind Speed:</li>
@@ -105,8 +119,15 @@
           </ul>
         </div>
         <div class="news">
-          <img class="news-image" src="images/campout.jpg" alt="Campground" />
-          <h2 class="news-title">News Release - Access Road Cleared</h2>
+          <picture id="news-image">
+            <source
+              srcset="images/camp720.webp"
+              media="(min-width: 640px) and (max-width: 1049px)"
+            />
+            <source srcset="images/camp960.webp" media="(min-width: 1050px)" />
+            <img src="images/camp640.webp" alt="Campground" />
+          </picture>
+          <h2 class="news-title">News - Access Road Cleared</h2>
           <p>
             The snow has melted and the access road to the Hollyhock campground
             is now clear. A wonderful getaway for your family is now open for
@@ -115,24 +136,33 @@
         </div>
         <div class="join">
           <h2>Hollyhill Chamber</h2>
-          <img src="images/building.svg" alt="Hollyhill Chamber Building" />
+          <picture id="join-image">
+            <source srcset="images/chamber250.webp" media="(min-width: 1050)" />
+            <img
+              src="images/chamber960.webp"
+              alt="Hollyhill Chamber Building"
+            />
+          </picture>
           <button class="join-cta">
-            <a href="join.html">Join the Chamber</a>
+            <a href="join.html">Join Today!</a>
           </button>
-          <p>
-            We want you to be part of our network. Join the Hollyhill Chamber of
-            Commerce today.
-          </p>
+          <p>Discover the benefits of being a member.</p>
         </div>
         <div class="spotlight">
           <div class="sp1">
             <h3>Hollyhill Community Pool</h3>
-            <img src="images/swimpool.svg" alt="Pool" />
-            <p>
-              Summer swimming lesson classes at
-              <b>Hollyhill Community Pool</b> will start on June 13th.
-              Registration is open until June 8th.
-            </p>
+            <picture id="pool-image">
+              <source
+                srcset="images/pool250.webp"
+                media="(min-width: 640px) and (max-width: 1049px)"
+              />
+              <source
+                srcset="images/pool250.webp"
+                media="(min-width: 1050px)"
+              />
+              <img src="images/pool300.webp" alt="Swimming Pool" />
+            </picture>
+            <p>Sign up for summer swim lessons.</p>
             <hr />
             <p>
               <b>www.hollyhillpool.com<br />Phone: 832-238-6410</b>
@@ -140,12 +170,18 @@
           </div>
           <div class="sp2">
             <h3>Hollyhill Historic Railroad</h3>
-            <img src="images/railroad.svg" alt="Train" />
-            <p>
-              <b>The Hollyhill Historic Railroad</b> is now offering Saturday
-              evening train rides that include dinner in their new dinning cars.
-              Tickets are on sale now for $99 per couple.
-            </p>
+            <picture id="train-image">
+              <source
+                srcset="images/train250.webp"
+                media="(min-width: 640px) and (max-width: 1049px)"
+              />
+              <source
+                srcset="images/train250.webp"
+                media="(min-width: 1050px)"
+              />
+              <img src="images/train300.webp" alt="Hollyhill Railroad" />
+            </picture>
+            <p>Scenic train rides tickets $29.</p>
             <hr />
             <p>
               <b>www.hollyhillrailroad.com<br />Phone: 832-238-0146</b>
@@ -153,12 +189,8 @@
           </div>
           <div class="sp3">
             <h3>The Hill Cafe</h3>
-            <img src="images/hillcafe.svg" alt="Cafe" />
-            <p>
-              The<b>GRAND OPENING</b> is finally here fore the long awaited
-              <b>Hill Cafe</b> on August 5. Located in the center of town on 104
-              Main Street and will be open from 9:00am - 8:00pm.
-            </p>
+            <img src="images/cafe250.webp" alt="Cafe" width="250" />
+            <p>Grand Opening on August 5th.</p>
             <hr />
             <p>
               <b>www.thehillcafe.com<br />Phone: 832-238-2443</b>
@@ -172,7 +204,8 @@
         <div>
           <img
             class="bottom-logo"
-            src="images/hollylogo.svg"
+            src="images/logo125.webp"
+            width="125"
             alt="Hollyhill Logo"
           />
         </div>

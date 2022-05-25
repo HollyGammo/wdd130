@@ -6,9 +6,13 @@
 
 body {
     font-family: 'Catamaran', sans-serif;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1700px;
 }
 
+img {
+    width: 100%;
+}
 /* ----------Header--------------- */
 header {
     display: grid;
@@ -48,7 +52,7 @@ main {
     background: linear-gradient(0.25turn, #8c181b, #f7a92b, #028c45, #21409a);
     border-top: 10px solid #ffffff;
     border-bottom: 10px solid #ffffff;
-    padding: 1rem;
+    padding: 15px;
 }
 
 h1 {
@@ -57,9 +61,15 @@ h1 {
     text-align: left;
 }
 
-h2 {
+.news h2, .hero h2 {
     color: rgb(232, 232, 232);
     text-shadow: 2px 4px 4px black;
+    line-height: 1.6rem;
+}
+
+.event h2, .weather h2, .join h2 {
+    text-shadow: 2px 2px 3px rgb(175, 175, 175);
+    line-height: 1.3rem;
 }
 
 h3 {
@@ -141,7 +151,7 @@ nav ul.open {display: block;
 /* ------------mobile grid layout--------------- */
 .boxes {
     display: grid;
-    gap: 25px;
+    gap: 15px;
 }
 
 .boxes div {
@@ -150,7 +160,11 @@ nav ul.open {display: block;
 
 .join, .weather, .event {
     background-color: white;
-    padding: 30px;
+    padding: 20px;
+}
+
+.join h2, .weather h2, .event h2 {
+    padding-bottom: 10px;
 }
 
 .boxes h2, .boxes p {
@@ -187,8 +201,7 @@ nav ul.open {display: block;
      border: 2px solid black;
      border-radius: .5rem;
      box-shadow: 0 0 15px rgb(33, 33, 33);
-     padding: 10px 20px;
-     font-size: 20px;
+     padding: 6px 15px;
      font-weight: bold;
      text-decoration: none;
  }
@@ -200,10 +213,7 @@ nav ul.open {display: block;
 /* ------Event Box------ */
 .event p, .join p {
     line-height: 1;
-    font-size: 1rem;
-    color: white;
-    padding: 15px 0;
-    background: linear-gradient(to right, rgba(140, 24, 27, .7), rgba(247, 169, 43, .7));  
+    font-size: 1rem; 
 }
  
 /* ------Weather Box------ */
@@ -211,16 +221,28 @@ nav ul.open {display: block;
     width:150px;   
 }
 
-.temp-box p {
-    text-align: right;
-}
-
 .speed-chill, .temp-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     list-style-type: none;
     text-align: right;
     padding-right: 20px;
+}
+
+.wind {
+    grid-row: 1/3;
+}
+
+.weather p {
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.condition {
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 /* ------News------ */ 
@@ -238,11 +260,17 @@ nav ul.open {display: block;
     bottom: 30px;
     padding: 15px 0;
     background: linear-gradient(to right, rgba(247, 169, 43, .7), rgba(2, 140, 69, .7));
+    line-height: 1.1rem;
+    color: white;
 }
 
 /* -------Join Box------ */
 .join {
     display: none; 
+}
+
+.join p {
+    padding-top: 10px;
 }
 
 /* ------Spotlight Box------ */
@@ -268,6 +296,13 @@ nav ul.open {display: block;
 .spotlight div {
     background: linear-gradient(0.75turn, #f9d4d5, #faedd9, #d4fae6, #d5defb);
     padding: 15px 30px;
+}
+
+.spotlight h3 {
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgb(168, 168, 168);
+    line-height: 1.3rem;
+    padding-bottom: 10px;
 }
 
 /* ------Footer------ */

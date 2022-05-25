@@ -29,6 +29,8 @@
     /* ------tablet grid layout------ */
     .boxes {
         grid-template-columns: 60% 40%;
+        gap: 25px;
+        padding: 25px;
     }
     
     .hero {
@@ -56,7 +58,9 @@
         grid-row: 3/4;
     }
 
-
+.join-image {
+    width: 
+}
     
     .spotlight {
         grid-column: 1/3;
