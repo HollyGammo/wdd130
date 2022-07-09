@@ -8,11 +8,11 @@
         "cityState": "Philadelphia, Pennsylvania 19103",
         "phone": "(+1) 215-398-3040",
         "email": "philadelphiatemple@lds.org",
-        "services": ["Clothing rental, No cafeteria, No patron housing, Distribution center nearby."],
-        "history": ["Announced: 4 October 2008, Groundbreaking: 17 September 2011, Dedicated: 18 September 2016"],
+        "services": ["Clothing rental", "No cafeteria", "No patron housing", "Distribution center nearby."],
+        "history": ["Announced: 4 October 2008", "Groundbreaking: 17 September 2011", "Dedicated: 18 September 2016"],
         "ordinanceSch": "All ordinances are currently by appointment only.",
         "sessionSch": "All sessions are currently by appointment only.", 
-        "closureSch": ["19 September 2022 - 10 October 2022, 23 November 2022 - 24 November 2022, 24 December 2022 - 25 December 2022, 31 December 2022"]
+        "closureSch": ["19 September 2022 - 10 October 2022", "23 November 2022 - 24 November 2022", "24 December 2022 - 25 December 2022", "31 December 2022"]
     },
 
     {
@@ -23,8 +23,8 @@
         "cityState": "Salt Lake City, Utah 84150",
         "phone": "(+1) 801-240-2640",
         "email": "saltlaketemple@lds.org",
-        "services": ["Clothing rental, No cafeteria food served, No patron housing, Distribution center nearby."],
-        "history": ["Announced: 28 July 1847, Groundbreaking: 14 February 1853, Dedicated: 6 April 1893"],
+        "services": ["Clothing rental", "No cafeteria food served", "No patron housing", "Distribution center nearby."],
+        "history": ["Announced: 28 July 1847", "Groundbreaking: 14 February 1853", "Dedicated: 6 April 1893"],
         "ordinanceSch": "Temple closed for renovation.",
         "sessionSch": "Temple closed for renovation.",
         "closureSch": "Temple closed for renovation. Open house and rededication dates not yet announced."
@@ -38,11 +38,11 @@
         "cityState": "Nauvoo, Illinois 62354",
         "phone": "(+1) 217-453-6252",
         "email": "nauvootemple@lds.org",
-        "services": ["Clothing rental, No cafeteria, Patron housing available, No distribution center."],
-        "history": ["Announced: 4 April 1999, Groundbreaking: 24 October 1999, Dedicated: 27 June 2002"],
+        "services": ["Clothing rental", "No cafeteria", "Patron housing available", "No distribution center."],
+        "history": ["Announced: 4 April 1999", "Groundbreaking: 24 October 1999", "Dedicated: 27 June 2002"],
         "ordinanceSch": "All ordinances are currently by appointment only.",
         "sessionSch": "All sessions are currently by appointment only.",
-        "closureSch": ["26 September 2022 - 24 October 2022, 24 November 2022, 24 December 2022, 31 December 2022"]
+        "closureSch": ["26 September 2022 - 24 October 2022", "24 November 2022", "24 December 2022, 31 December 2022"]
     },
 
     {
@@ -53,11 +53,11 @@
         "cityState": "Palmyra, New York 14522",
         "phone": "(+1) 315-597-6001",
         "email": "palmyratemple@lds,org",
-        "services": ["No clothing rental, No cafeteria, No patron housing available, Distribution center nearby."],
-        "history": ["Announced: 21 February 1999, Groundbreaking: 25 May 1999, Dedicated: 6 April 2000"],
+        "services": ["No clothing rental", "No cafeteria", "No patron housing available", "Distribution center nearby."],
+        "history": ["Announced: 21 February 1999", "Groundbreaking: 25 May 1999", "Dedicated: 6 April 2000"],
         "ordinanceSch": "All ordinances are currently by appointment only.",
         "sessionSch": "All sessions are currently by appointment only.",
-        "closureSch": ["12 September 2022 - 26 September 2022, 1 October 2022, 24 November 2022, 24 December 2022, 31 December 2022"]
+        "closureSch": ["12 September 2022 - 26 September 2022", "1 October 2022, 24 November 2022", "24 December 2022", "31 December 2022"]
     },
 
     {
@@ -68,8 +68,8 @@
         "cityState": "Kensington, Maryland 20895",
         "phone": "(+1) 301-588-0650",
         "email": "washingtondctemple@lds.org",
-        "services": ["Clothing rental, No cafeteria food served, No patron housing available, Distribution center nearby."],
-        "history": ["Announced: 15 November 1968, Groundbreaking: 7 December 1968, Dedicated: 19 November 1974, Rededication: 14 August 2022"],
+        "services": ["Clothing rental", "No cafeteria food served", "No patron housing available", "Distribution center nearby."],
+        "history": ["Announced: 15 November 1968", "Groundbreaking: 7 December 1968", "Dedicated: 19 November 1974", "Rededication: 14 August 2022"],
         "ordinanceSch": "Temple closed for renovation.",
         "sessionSch": "Temple closed for renovation.",
         "closureSch": "Temple closed for renovation. Open house and rededication on 14 August 2022."
@@ -83,11 +83,11 @@
         "cityState": "Mesa, Arizona 85204",
         "phone": "(+1) 480-833-1211",
         "email": "mesaarizonatemple@lds.org",
-        "services": ["Clothing rental, No cafeteria, No patron housing available, Distribution center nearby."],
-        "history": ["Announced: 1 October 1919, Groundbreaking: 25 April 1922, Dedicated: 23 October 1927, Rededication: 15 April 1975, Rededication: 12 December 2021"],
+        "services": ["Clothing rental", "No cafeteria", "No patron housing available", "Distribution center nearby."],
+        "history": ["Announced: 1 October 1919", "Groundbreaking: 25 April 1922", "Dedicated: 23 October 1927", "Rededication: 15 April 1975", "Rededication: 12 December 2021"],
         "ordinanceSch": "All ordinances are currently by appointment only.",
         "sessionSch": "All sessions are currently by appointment only.",
-        "closureSch": "18 July 2022 - 1 August 2022, 1 October 2022, 24 November 2022, 24 December 2022, 31 December 2022"
+        "closureSch": ["18 July 2022 - 1 August 2022", "1 October 2022", "24 November 2022", "24 December 2022", "31 December 2022"]
     }
   ]
 }
