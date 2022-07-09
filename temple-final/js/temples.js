@@ -1,4 +1,4 @@
-const requestURL = "https://hollygammo.github.io/cit160/temple/json/templeinfo.json";
+const requestURL = "https://hollygammo.github.io/wdd130/temple-final/json/templedata.json";
 const containers = document.querySelector(".temple-cards");
 
 fetch(URLrequest)
