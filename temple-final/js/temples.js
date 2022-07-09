@@ -73,3 +73,5 @@ async function findTemples() {
       document.querySelector('div.temples').appendChild(card);
  });
 } 
+
+findTemples()
