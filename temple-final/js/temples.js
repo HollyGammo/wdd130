@@ -1,4 +1,4 @@
-const requestURL = "https://hollygammo.github.io/wdd130/temple-final/json/templedata.json";
+const requestURL = "json/templedata.json";
 const containers = document.querySelector(".temple-cards");
 
 fetch(URLrequest)
@@ -11,20 +11,19 @@ fetch(URLrequest)
 });
 
 function templeData(temple) {
-    let card = document.querySelector(".tempCard");
-    let imageSmall = document.querySelector(".tempPic");
-    let name = document.querySelector(".tempName");
-    let streetAddress = document.querySelector(".tempAddress");
-    let cityState = document.querySelector(".tempCity");
-    let phone = document.querySelector(".tempPhone");
-    let email = document.querySelector(".tempWeb");
-    let services = document.querySelector(".tempServ");
-    let history = document.querySelector(".tempHist");
-    let ordinanceSch = document.querySelector(".tempOrd");
-    let sessionSch = document.querySelector(".tempSess");
-    let closureSch = document.querySelector(".tempClose");
+    let card = document.createElement("div");
+    let imageSmall = document.createElement("img");
+    let name = document.createElement("p");
+    let streetAddress = document.createElement("p");
+    let cityState = document.createElement("p");
+    let phone = document.createElement("p");
+    let email = document.createElement("p");
+    let services = document.createElement("p");
+    let history = document.createElement("p");
+    let ordinanceSch = document.createElement("p");
+    let sessionSch = document.createElement("p");
+    let closureSch = document.createElement("p");
     
-
     imageSmall.setAttribute('src', "images/" + temple.imageSmall);
     imageSmall.setAttribute('alt', `${temple.name}`);
 
