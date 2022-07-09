@@ -1,20 +1,16 @@
 const requestURL =  "https://hollygammo.github.io/wdd130/temple-final/json/temples.json";
-const temples = document.querySelector(".temples");
 
-async function findTemples() {
-    let response = await fetch(requestURL);
-    if (response.ok) {
-      let data = await response.json();
-      displayTemples(data);
-      console.table(data);
-    } else {
-      throw Error(response.statusText);
-    }
-  }
-  
-  function displayTemples(data) {
-    data.temples.forEach(temple => {
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);
 
+    const temples = jsonObject['temples'];
+    const cards = document.querySelector('.cards');
+
+    temples.forEach(temple => {
     let card = document.createElement("div");
     let imageSmall = document.createElement("img");
     let name = document.createElement("p");
@@ -41,22 +37,6 @@ async function findTemples() {
     ordinances.innerHTML = temple.ordinanceSch;
     sessions.innerHTML = `${temple.sessionSch}`;
     closures.innerHTML = temple.closureSch;
-
-    button.classList.add("likeBtn");
-
-    if (temple.name == "Philadelphia Pennsylvania Temple") {
-        button.classList.add('phillyBtn')
-        button.setAttribute('onclick', 'phillyCount()');
-      } else if (temple.name == "Salt Lake Temple") {
-        button.classList.add('slcBtn')
-        button.setAttribute('onclick', 'slcCount()');
-      } else if (temple.name == "Nauvoo Illinois Temple") {
-        button.classList.add('NauvBtn')
-        button.setAttribute('onclick', 'NauvCount()');
-      } else if (temple.name == "Palmyra New York Temple") {
-        button.classList.add('palBtn')
-        button.setAttribute('onclick', 'palCount()');
-      }
       
       card.appendChild(imageSmall);
       card.appendChild(button);
@@ -71,8 +51,6 @@ async function findTemples() {
       card.appendChild(sessions);
       card.appendChild(closures);
 
-      document.querySelector('div.temples').append(temples);
+      cards.append(card);
  });
-} 
-
-findTemples()
+}); 
