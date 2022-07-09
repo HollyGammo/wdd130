@@ -1,4 +1,4 @@
-const requestURL = "json/templedata.json";
+const requestURL =  "https://hollygammo.github.io/wdd130/temple-final/json/temples.json";
 const temples = document.querySelector(".temples");
 
 async function findTemples() {
@@ -70,6 +70,6 @@ async function findTemples() {
       card.appendChild(sessions);
       card.appendChild(closures);
 
-    temples.appendChild(card);
+      document.querySelector('div.temples').appendChild(card);
  });
 } 
