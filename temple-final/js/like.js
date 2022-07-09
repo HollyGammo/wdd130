@@ -1,3 +1,5 @@
+card.appendChild(button);
+
 button.classList.add("likeBtn");
 
 if (temple.name == "Philadelphia Pennsylvania Temple") {

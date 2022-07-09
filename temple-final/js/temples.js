@@ -5,7 +5,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);
+    console.log(jsonObject);
 
     const temples = jsonObject['temples'];
     const cards = document.querySelector('.cards');
@@ -39,7 +39,6 @@ fetch(requestURL)
     closures.innerHTML = temple.closureSch;
       
       card.appendChild(imageSmall);
-      card.appendChild(button);
       card.appendChild(name);
       card.appendChild(address);
       card.appendChild(city);
