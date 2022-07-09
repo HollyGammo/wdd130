@@ -6,6 +6,7 @@ async function findTemples() {
     if (response.ok) {
       let data = await response.json();
       displayTemples(data);
+      console.table(data);
     } else {
       throw Error(response.statusText);
     }
@@ -31,15 +32,15 @@ async function findTemples() {
     imageSmall.setAttribute('alt', `${temple.name}`);
 
     name.innerHTML = `${temple.name}`;
-    streetAddress.innerHTML = temple.streetAddress;
-    cityState.innerHTML = `${temple.cityState}`;
+    address.innerHTML = temple.streetAddress;
+    city.innerHTML = `${temple.cityState}`;
     phone.innerHTML = temple.phone;
     email.innerHTML = `${temple.email}`;
     services.innerHTML = temple.services;
     history.innerHTML = `${temple.history}`;
-    ordinanceSch.innerHTML = temple.ordinanceSch;
-    sessionSch.innerHTML = `${temple.sessionSch}`;
-    closureSch.innerHTML = temple.closureSch;
+    ordinances.innerHTML = temple.ordinanceSch;
+    sessions.innerHTML = `${temple.sessionSch}`;
+    closures.innerHTML = temple.closureSch;
 
     button.classList.add("likeBtn");
 
@@ -70,7 +71,7 @@ async function findTemples() {
       card.appendChild(sessions);
       card.appendChild(closures);
 
-      document.querySelector('div.temples').appendChild(card);
+      document.querySelector('div.temples').append(temples);
  });
 } 
 
