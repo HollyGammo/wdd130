@@ -1,28 +1,29 @@
 const requestURL =  "https://hollygammo.github.io/wdd130/temple-final/json/temples.json";
+const cards = document.querySelector('.temple-cards');
 
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    console.log(jsonObject);
-
     const temples = jsonObject['temples'];
-    const cards = document.querySelector('.cards');
+    console.log(jsonObject);
+    temples.forEach(templeCard);
+  }); 
 
-    temples.forEach(temple => {
-    let card = document.createElement("div");
-    let imageSmall = document.createElement("img");
-    let name = document.createElement("p");
-    let address = document.createElement("p");
-    let city = document.createElement("p");
-    let phone = document.createElement("p");
-    let email = document.createElement("p");
-    let services = document.createElement("p");
-    let history = document.createElement("p");
-    let ordinances = document.createElement("p");
-    let sessions = document.createElement("p");
-    let closures = document.createElement("p");
+function templeCard(temple) {
+    let card = document.querySelector(".tempDiv");
+    let imageSmall = document.querySelector(".tempPic");
+    let name = document.querySelector(".tempName");
+    let address = document.querySelector(".tempAddress");
+    let city = document.querySelector(".tempCity");
+    let phone = document.querySelector(".tempPhone");
+    let email = document.querySelector(".tempWeb");
+    let services = document.querySelector(".tempServ");
+    let history = document.querySelector(".tempHist");
+    let ordinances = document.querySelector(".tempOrd");
+    let sessions = document.querySelector(".tempSess");
+    let closures = document.querySelector(".tempClose");
     
     imageSmall.setAttribute('src', "images/" + temple.imageSmall);
     imageSmall.setAttribute('alt', `${temple.name}`);
@@ -37,19 +38,36 @@ fetch(requestURL)
     ordinances.innerHTML = temple.ordinanceSch;
     sessions.innerHTML = `${temple.sessionSch}`;
     closures.innerHTML = temple.closureSch;
-      
-      card.appendChild(imageSmall);
-      card.appendChild(name);
-      card.appendChild(address);
-      card.appendChild(city);
-      card.appendChild(phone);
-      card.appendChild(email);
-      card.appendChild(services);
-      card.appendChild(history);
-      card.appendChild(ordinances);
-      card.appendChild(sessions);
-      card.appendChild(closures);
 
-      cards.append(card);
- });
-}); 
+      cards.appendChild(card);
+ } 
+
+
+ //////  LIKE BUTTON   /////
+ $(".like-btn").click( function() {
+
+	$(this).toggleClass('clicked');
+    event.preventDefault();
+
+});
+
+$(".panel-group_btn span").click(function(){
+const btnStorage = $(this).attr("id");
+
+if($(this).hasClass("clicked")) {
+    localStorage.setItem(btnStorage, 'true');
+} else {
+    localStorage.removeItem(btnStorage, 'true');
+}
+});
+
+
+$( ".panel-group_btn span" ).each(function() {
+const mainlocalStorage = $( this ).attr( "id" );
+
+    if(localStorage.getItem(mainlocalStorage) == 'true') {
+        $(this).addClass("clicked");
+    } else {
+        $(this).removeClass("clicked");
+    }
+});

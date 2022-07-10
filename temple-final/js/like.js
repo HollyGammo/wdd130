@@ -1,17 +1,27 @@
-card.appendChild(button);
+$(".like-btn").click( function() {
 
-button.classList.add("likeBtn");
+	$(this).toggleClass('clicked');
+    event.preventDefault();
 
-if (temple.name == "Philadelphia Pennsylvania Temple") {
-    button.classList.add('phillyBtn')
-    button.setAttribute('onclick', 'phillyCount()');
-  } else if (temple.name == "Salt Lake Temple") {
-    button.classList.add('slcBtn')
-    button.setAttribute('onclick', 'slcCount()');
-  } else if (temple.name == "Nauvoo Illinois Temple") {
-    button.classList.add('NauvBtn')
-    button.setAttribute('onclick', 'NauvCount()');
-  } else if (temple.name == "Palmyra New York Temple") {
-    button.classList.add('palBtn')
-    button.setAttribute('onclick', 'palCount()');
-  }
+});
+
+$(".panel-group_btn span").click(function(){
+const btnStorage = $(this).attr("id");
+
+if($(this).hasClass("clicked")) {
+    localStorage.setItem(btnStorage, 'true');
+} else {
+    localStorage.removeItem(btnStorage, 'true');
+}
+});
+
+
+$( ".panel-group_btn span" ).each(function() {
+const mainlocalStorage = $( this ).attr( "id" );
+
+    if(localStorage.getItem(mainlocalStorage) == 'true') {
+        $(this).addClass("clicked");
+    } else {
+        $(this).removeClass("clicked");
+    }
+});

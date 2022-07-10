@@ -208,6 +208,23 @@
     border: 3px solid rgb(65, 81, 109);
     font-size: 1rem;
   }
+
+  /*=======LIKE BUTTON=======*/  
+  body, a {
+    text-decoration:none;
+  }
+
+  a.favorite {color: #888;display:block;}
+
+  a.likebtn {
+    color: #888;
+    font-size: 14px;
+}
+
+  span.clicked {
+  color: #00dfae; 
+  font-weight:bold;
+}
   
   /*====Styling Section====*/
   .heading-banner {
@@ -501,8 +518,34 @@
     text-align: center;
   }
   
+  /*========TEMPLES PAGE=========*/
+  .tmpl {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    margin: 40px;
+    text-align: center;
+  }
+
+  .tempDiv{
+    border: 1px solid black; 
+  }
+
+  .tempPic {
+    width: 250px;
+  }
+
+  .tempName {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
   
-  
+
+
+
+
+
+
   /*--not used---*/
   .featured,
   .featured-portal {
