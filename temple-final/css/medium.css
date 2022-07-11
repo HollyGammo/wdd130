@@ -86,13 +86,13 @@
     .sm-scroll {
       height: 150px;
     }
-  
+/*=====SCROLL IMAGES=====*/
     .dc-scroll {
       background-image: url("images/dcpm.webp");
     }
   
     .res-scroll {
-      background-image: url("images/twins.jpg");
+      background-image: url("images/twinsm.webp");
     }
   
     .feature-scroll {

@@ -293,12 +293,13 @@
     margin: 0px;
   }
   
+  /*=======SCROLL IMAGES======*/
   .dc-scroll {
     background-image: url("images/dcps.webp");
   }
   
   .res-scroll {
-    background-image: url("images/twins.jpg");
+    background-image: url("images/twinss.webp");
   }
   
   .feature-scroll {
