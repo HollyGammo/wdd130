@@ -25,11 +25,6 @@
       padding: 1.5rem 8rem 2rem;
     }
   
-    section a:hover,
-    .mySlides a:hover {
-      color: #ffad05;
-    }
-  
      /*====Home====*/
      .feature-para {
       padding: 2rem 8rem;
@@ -113,8 +108,8 @@
   /*=======TEMPLE PAGE======*/
   .tmpl {
     gap: 30px;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin: 40px 50px;
   }
 
   .tempPic {
@@ -125,13 +120,5 @@
     padding: 30px;
   }
 
-    /*----*/
-    .inner-wrap {
-      max-width: 800px;
-    }
-  
-    .img-wrap {
-      display: none;
-    }
   }
   
