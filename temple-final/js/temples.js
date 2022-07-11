@@ -29,45 +29,74 @@ function templeCard(temple) {
     imageSmall.setAttribute('alt', `${temple.name}`);
 
     name.innerHTML = `${temple.name}`;
-    address.innerHTML = temple.streetAddress;
+    address.innerHTML = `${temple.streetAddress}`;
     city.innerHTML = `${temple.cityState}`;
-    phone.innerHTML = temple.phone;
+    phone.innerHTML = `${temple.phone}`;
     email.innerHTML = `${temple.email}`;
-    services.innerHTML = temple.services;
-    history.innerHTML = `${temple.history}`;
-    ordinances.innerHTML = temple.ordinanceSch;
-    sessions.innerHTML = `${temple.sessionSch}`;
-    closures.innerHTML = temple.closureSch;
+    services.innerHTML = `Services: ${temple.services}`;
+    history.innerHTML = `History: ${temple.history}`;
+    ordinances.innerHTML = `Ordinance Schedule: ${temple.ordinanceSch}`;
+    sessions.innerHTML = `Session Schedule: ${temple.sessionSch}`;
+    closures.innerHTML = `Temple Closures: ${temple.closureSch}`;
 
       cards.appendChild(card);
  } 
 
 
- //////  LIKE BUTTON   /////
- $(".like-btn").click( function() {
+ //=======LIKE BUTTONS========//
+templeCard ()
 
-	$(this).toggleClass('clicked');
-    event.preventDefault();
-
-});
-
-$(".panel-group_btn span").click(function(){
-const btnStorage = $(this).attr("id");
-
-if($(this).hasClass("clicked")) {
-    localStorage.setItem(btnStorage, 'true');
-} else {
-    localStorage.removeItem(btnStorage, 'true');
+function phillyCount() {
+  if (localStorage.likePhilly) {
+    localStorage.likePhilly = Number(localStorage.likePhilly) + 1;
+  } else {
+    localStorage.likePhilly = 0;
+  }
+  document.getElementById("likePhilly").innerHTML = localStorage.likePhilly;
 }
-});
 
+function slCount() {
+  if (localStorage.likeSlc) {
+    localStorage.likeSlc = Number(localStorage.likeSlc) + 1;
+  } else {
+    localStorage.likeSlc = 0;
+  }
+  document.getElementById("likeSlc").innerHTML = localStorage.likeSlc;
+}
 
-$( ".panel-group_btn span" ).each(function() {
-const mainlocalStorage = $( this ).attr( "id" );
+function nauvooCount() {
+  if (localStorage.likeNauvoo) {
+    localStorage.likeNauvoo = Number(localStorage.likeNauvoo) + 1;
+  } else {
+    localStorage.likeNauvoo = 0;
+  }
+  document.getElementById("likeNauvoo").innerHTML = localStorage.likeNauvoo;
+}
 
-    if(localStorage.getItem(mainlocalStorage) == 'true') {
-        $(this).addClass("clicked");
-    } else {
-        $(this).removeClass("clicked");
-    }
-});
+function palmyraCount() {
+  if (localStorage.likePalmyra) {
+    localStorage.likePalmyra = Number(localStorage.likePalmyra) + 1;
+  } else {
+    localStorage.likePalmyra = 0;
+  }
+  document.getElementById("likePalmyra").innerHTML = localStorage.likePalmyra;
+}
+
+function dcCount() {
+  if (localStorage.likeDc) {
+    localStorage.likeDc = Number(localStorage.likeDc) + 1;
+  } else {
+    localStorage.likeDc = 0;
+  }
+  document.getElementById("likePhilly").innerHTML = localStorage.likeDc;
+}
+
+function mesaCount() {
+  if (localStorage.likeMesa) {
+    localStorage.likeMesa = Number(localStorage.likeMesa) + 1;
+  } else {
+    localStorage.likeMesa = 0;
+  }
+  document.getElementById("likeMesa").innerHTML = localStorage.likeMesa;
+}
+

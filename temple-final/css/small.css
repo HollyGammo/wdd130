@@ -208,23 +208,15 @@
     border: 3px solid rgb(65, 81, 109);
     font-size: 1rem;
   }
-
-  /*=======LIKE BUTTON=======*/  
-  body, a {
-    text-decoration:none;
+  /*=======LIKE BUTTON=======*/
+  .tmpl button {
+    border: 2px solid rgb(65, 81, 109);
+    font-size: 1rem;
+    padding: 4px 12px;
+    border-radius: 0;
   }
-
-  a.favorite {color: #888;display:block;}
-
-  a.likebtn {
-    color: #888;
-    font-size: 14px;
-}
-
-  span.clicked {
-  color: #00dfae; 
-  font-weight:bold;
-}
+  
+    
   
   /*====Styling Section====*/
   .heading-banner {
@@ -266,6 +258,13 @@
     margin-bottom: 50px;
   }
   
+  .left {
+    text-align: left;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
   /*====Background Image Scrolls====*/
   .scroll {
     position: static;
@@ -540,6 +539,9 @@
     font-weight: bold;
   }
   
+  .center {
+    margin: 25px auto;
+  }
 
 
 
@@ -588,9 +590,6 @@
     height: 90%;
   }
   
-  .center {
-    margin: 25px auto;
-  }
   
   .temple-page-bubble {
     max-width: 250px;
