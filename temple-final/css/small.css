@@ -43,10 +43,19 @@
     padding: 50px;
     text-align: center;
   }
+
+  .scroll-title {
+    color: white;
+    text-shadow:2px 5px 5px black;
+    line-height: 1.7rem;
+    font-size: 3rem;
+    text-align: center;
+    padding: 50px 0 20px;
+  }
   
   .sec-title {
     line-height: 1.7rem;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     text-align: center;
     padding: 50px 0 20px;
   }
@@ -311,7 +320,9 @@
   .welcome-image {
     border-radius: 150px 150px 0 0;
     border: 5px solid #7294b2;
-    margin: 10px 0px 15px 0px;
+    object-fit: cover;
+    width: 100%;
+    max-width: 250px;
   }
   
   /*====Weather on Homepage====*/
