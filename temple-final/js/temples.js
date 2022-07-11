@@ -33,11 +33,11 @@ function templeCard(temple) {
     city.innerHTML = `${temple.cityState}`;
     phone.innerHTML = `${temple.phone}`;
     email.innerHTML = `${temple.email}`;
-    services.innerHTML = `Services: ${temple.services}`;
-    history.innerHTML = `History: ${temple.history}`;
-    ordinances.innerHTML = `Ordinance Schedule: ${temple.ordinanceSch}`;
-    sessions.innerHTML = `Session Schedule: ${temple.sessionSch}`;
-    closures.innerHTML = `Temple Closures: ${temple.closureSch}`;
+    services.innerHTML = `<strong>Services: </strong>${temple.services}`;
+    history.innerHTML = `<strong>History: </strong>${temple.history}`;
+    ordinances.innerHTML = `<strong>Ordinance Schedule: </strong>${temple.ordinanceSch}`;
+    sessions.innerHTML = `<strong>Session Schedule: </strong>${temple.sessionSch}`;
+    closures.innerHTML = `<strong>Temple Closures: </strong>${temple.closureSch}`;
 
       cards.appendChild(card);
  } 
@@ -50,7 +50,7 @@ function phillyCount() {
   if (localStorage.likePhilly) {
     localStorage.likePhilly = Number(localStorage.likePhilly) + 1;
   } else {
-    localStorage.likePhilly = 0;
+    localStorage.likePhilly = 1;
   }
   document.getElementById("likePhilly").innerHTML = localStorage.likePhilly;
 }
@@ -59,7 +59,7 @@ function slCount() {
   if (localStorage.likeSlc) {
     localStorage.likeSlc = Number(localStorage.likeSlc) + 1;
   } else {
-    localStorage.likeSlc = 0;
+    localStorage.likeSlc = 1;
   }
   document.getElementById("likeSlc").innerHTML = localStorage.likeSlc;
 }
@@ -68,7 +68,7 @@ function nauvooCount() {
   if (localStorage.likeNauvoo) {
     localStorage.likeNauvoo = Number(localStorage.likeNauvoo) + 1;
   } else {
-    localStorage.likeNauvoo = 0;
+    localStorage.likeNauvoo = 1;
   }
   document.getElementById("likeNauvoo").innerHTML = localStorage.likeNauvoo;
 }
@@ -77,7 +77,7 @@ function palmyraCount() {
   if (localStorage.likePalmyra) {
     localStorage.likePalmyra = Number(localStorage.likePalmyra) + 1;
   } else {
-    localStorage.likePalmyra = 0;
+    localStorage.likePalmyra = 1;
   }
   document.getElementById("likePalmyra").innerHTML = localStorage.likePalmyra;
 }
@@ -86,16 +86,16 @@ function dcCount() {
   if (localStorage.likeDc) {
     localStorage.likeDc = Number(localStorage.likeDc) + 1;
   } else {
-    localStorage.likeDc = 0;
+    localStorage.likeDc = 1;
   }
-  document.getElementById("likePhilly").innerHTML = localStorage.likeDc;
+  document.getElementById("likeDc").innerHTML = localStorage.likeDc;
 }
 
 function mesaCount() {
   if (localStorage.likeMesa) {
     localStorage.likeMesa = Number(localStorage.likeMesa) + 1;
   } else {
-    localStorage.likeMesa = 0;
+    localStorage.likeMesa = 1;
   }
   document.getElementById("likeMesa").innerHTML = localStorage.likeMesa;
 }
