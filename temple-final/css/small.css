@@ -527,10 +527,18 @@
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    margin: 40px 20px;
     text-align: center;
   }
 
+  .tempDiv {
+    padding: 20px;
+    margin: 40px 20px;
+  }
+  
+  .c2 {
+    padding-top: 20px;
+    line-height: 1.4rem;
+  }
   .tempPic {
     width: 250px;
     margin: 30px;
@@ -546,9 +554,13 @@
     margin: 25px auto;
   }
 
-  .c1 {
-    line-height: 1.4rem;
-    font-size: 1rem;
+ .tempPhone, .tempWeb {
+  padding-top: 20px;
+ }
+
+  .card-line {
+    margin: 30px 0 20px;
+    border: 2px solid #7294b2;
   }
 
 

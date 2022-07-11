@@ -110,6 +110,21 @@
       margin-top: 80px;
   }
   
+  /*=======TEMPLE PAGE======*/
+  .tmpl {
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+  }
+
+  .tempPic {
+    width: 350px;
+  }
+
+  .tempDiv {
+    padding: 30px;
+  }
+
     /*----*/
     .inner-wrap {
       max-width: 800px;
