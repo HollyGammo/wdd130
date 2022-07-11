@@ -2,7 +2,7 @@
     "temples": [
     {
         "image": "philly.jpg",
-        "imageSmall": "phillysm.jpg",
+        "imageSmall": "phillysm.webp",
         "name": "Philadelphia Temple",
         "streetAddress": "1739 Vine Street",
         "cityState": "Philadelphia, Pennsylvania 19103",
@@ -17,7 +17,7 @@
 
     {
         "image": "salt.jpg",
-        "imageSmall": "saltsm.jpg",
+        "imageSmall": "saltsm.webp",
         "name": "Salt Lake Temple",
         "streetAddress": "50 W North Temple Street",
         "cityState": "Salt Lake City, Utah 84150",
@@ -32,7 +32,7 @@
 
     {
         "image": "nauvoo.jpg",
-        "imageSmall": "nauvoosm.jpg", 
+        "imageSmall": "nauvoosm.webp", 
         "name": "Nauvoo Illinois Temple",
         "streetAddress": "50 N Wells Street",
         "cityState": "Nauvoo, Illinois 62354",
@@ -47,7 +47,7 @@
 
     {
         "image": "palmyra.jpg",
-        "imageSmall": "palmyrasm.jpg",
+        "imageSmall": "palmyrasm.webp",
         "name": "Palmyra New York Temple",
         "streetAddress": "2720 Temple Road",
         "cityState": "Palmyra, New York 14522",
@@ -62,7 +62,7 @@
 
     {
         "image": "washington.jpg",
-        "imageSmall": "washingtonsm.jpg",
+        "imageSmall": "washingtonsm.webp",
         "name": "Washington D.C. Temple",
         "streetAddress": "9900 Stoneybrook Drive",
         "cityState": "Kensington, Maryland 20895",
@@ -77,7 +77,7 @@
 
     {
         "image": "mesa.jpg",
-        "imageSmall": "mesasm.jpg",
+        "imageSmall": "mesasm.webp",
         "name": "Mesa Arizona Temple",
         "streetAddress": "101 South LeSueur",
         "cityState": "Mesa, Arizona 85204",
