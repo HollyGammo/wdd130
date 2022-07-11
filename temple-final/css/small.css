@@ -216,9 +216,6 @@
     border-radius: 0;
     margin-bottom: 30px;
   }
-  
-  /*temple button*/
-
 
   /*====Styling Section====*/
   .heading-banner {
@@ -548,10 +545,6 @@
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 30px;
-  }
-  
-  .center {
-    margin: 25px auto;
   }
 
  .tempPhone, .tempWeb {
