@@ -1,7 +1,7 @@
 {
     "temples": [
     {
-        "image": "philly.jpg",
+        "image": "philly.webp",
         "imageSmall": "phillysm.webp",
         "name": "Philadelphia Temple",
         "streetAddress": "1739 Vine Street",
@@ -16,7 +16,7 @@
     },
 
     {
-        "image": "salt.jpg",
+        "image": "salt.webp",
         "imageSmall": "saltsm.webp",
         "name": "Salt Lake Temple",
         "streetAddress": "50 W North Temple Street",
@@ -31,7 +31,7 @@
     },
 
     {
-        "image": "nauvoo.jpg",
+        "image": "nauvoo.webp",
         "imageSmall": "nauvoosm.webp", 
         "name": "Nauvoo Illinois Temple",
         "streetAddress": "50 N Wells Street",
@@ -46,7 +46,7 @@
     },
 
     {
-        "image": "palmyra.jpg",
+        "image": "palmyra.webp",
         "imageSmall": "palmyrasm.webp",
         "name": "Palmyra New York Temple",
         "streetAddress": "2720 Temple Road",
@@ -61,7 +61,7 @@
     },
 
     {
-        "image": "washington.jpg",
+        "image": "washington.webp",
         "imageSmall": "washingtonsm.webp",
         "name": "Washington D.C. Temple",
         "streetAddress": "9900 Stoneybrook Drive",
@@ -76,7 +76,7 @@
     },
 
     {
-        "image": "mesa.jpg",
+        "image": "mesa.webp",
         "imageSmall": "mesasm.webp",
         "name": "Mesa Arizona Temple",
         "streetAddress": "101 South LeSueur",
