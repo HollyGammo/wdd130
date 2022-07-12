@@ -211,6 +211,10 @@
   .style-button {
     margin-top: 130px;
   }
+
+  .reg-button {
+    margin-top: 10px;
+  }
   
   form button {
     margin-left: 0.5rem;
@@ -317,7 +321,7 @@
   
   /*================= HOME PAGE ===================*/
   /*====Welcome on Homepage====*/
-  .welcome-image {
+  .little-image {
     border-radius: 150px 150px 0 0;
     border: 5px solid #7294b2;
     object-fit: cover;
@@ -325,6 +329,13 @@
     max-width: 250px;
   }
   
+  .pill {
+    border-radius: 0 80px 0 80px;
+    border: 5px solid #7294b2;
+    object-fit: cover;
+    width: 100%;
+    max-width: 250px;
+  }
   /*====Weather on Homepage====*/
   .weather {
     padding: 20px;
@@ -449,9 +460,11 @@
   }
   
   label input:required,
-  select:required {
+  label select:required {
     border-left: #7294b2 solid 6px;
   }
+
+  
   
   label input:required:valid,
   select:valid {
@@ -470,10 +483,10 @@
   }
   
   input,
-  select {
+  select, textarea {
     display: block;
     padding: 10px 20px;
-    margin-bottom: 10px;
+    margin: 3px 0 10px 0;
     font-size: 0.8rem;
   }
   
@@ -501,7 +514,9 @@
   }
   
   /*=========RESERVATIONS PAGE============*/
-  
+  .room {
+    width: 50px;
+  }
   /*=============SERVICES PAGE=============*/
   .service-grid {
     text-align: center;

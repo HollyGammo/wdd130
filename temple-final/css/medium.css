@@ -100,7 +100,7 @@
     }
   
     /*====Welcome====*/
-    .welcome-image {
+    .little-image, .pill {
       float: left;
       margin: 0px 20px 15px 0px;
     }

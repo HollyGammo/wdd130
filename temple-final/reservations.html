@@ -47,7 +47,7 @@
           <li><a href="temples.html">Temples</a></li>
           <li><a href="services.html">Services</a></li>
           <li>
-            <a href="reservation.html" title="Reservations" class="active"
+            <a href="reservations.html" title="Reservations" class="active"
               >Reservations</a
             >
           </li>
@@ -56,16 +56,12 @@
       </nav>
 
       <section class="block wh">
-        <div class="welcome">
-          <img
-            class="welcome-image"
-            src="images/dcflower.webp"
-            alt="A view of the Temple from the hotel front."
-            width="150"
-          />
-        </div>
         <div class="welcome-para">
-          <h2 class="sec-image">Make Your Reservation Today!</h2>
+          <h2>Guest Rooms & Suites</h2>
+          <a href="rooms.html"
+            ><button class="reg-button">&nbsp; Room Options &nbsp;</button></a
+          >
+          <br />
           <br />
           <p>
             At Temple Inn & Suites, we are dedicated to helping our guests have
@@ -111,28 +107,42 @@
               ><input type="text" name="address" required
             /></label>
             <br />
-            <p>Reason For Your Stay:</p>
-            <br />
-            <label class="check"
-              ><input type="radio" class="circle" name="email" /> &nbsp; Temple
-              Patron</label
-            >
-            <label class="check"
-              ><input type="radio" class="circle" name="phone" /> &nbsp; Temple
-              Worker</label
-            >
-            <label class="check"
-              ><input type="radio" class="circle" name="text" /> &nbsp;
-              Missionary Assignment</label
-            >
-            <label class="check"
-              ><input type="radio" class="circle" name="text" /> &nbsp;
-              Wedding</label
-            >
-            <label class="check"
-              ><input type="radio" class="circle" name="text" /> &nbsp;
-              Other</label
-            >
+            <div class="grid-two">
+              <div>
+                <p>Select Room Type:</p>
+                <br />
+                <label class="check"
+                  ><input type="radio" class="circle" name="king" /> &nbsp; King
+                  Bed Guest Room</label
+                >
+                <label class="check"
+                  ><input type="radio" class="circle" name="queens" /> &nbsp;
+                  Queen Beds (2) Guest Room</label
+                >
+                <label class="check"
+                  ><input type="radio" class="circle" name="missionary" />
+                  &nbsp; Full-time Temple Missionary Suite</label
+                >
+                <label class="check"
+                  ><input type="radio" class="circle" name="suite" /> &nbsp;
+                  Honeymoon Suite</label
+                >
+              </div>
+              <div>
+                <label required
+                  >Number of Rooms Needed &nbsp;
+                  <select name="how many" required>
+                    <option selected disabled value="">
+                      # of Rooms &#9662;
+                    </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </label>
+              </div>
+            </div>
           </fieldset>
         </div>
 
@@ -142,19 +152,10 @@
             <p>Select Dates:</p>
             <div class="grid-two">
               <label for="startDate"
-                >From*<input
-                  type="date"
-                  id="startDate"
-                  name="startDate"
-                  required
+                >From*<input type="date" name="startDate" required
               /></label>
               <label for="endDate"
-                >To*<input
-                  type="date"
-                  id="endDate"
-                  name="endDate"
-                  max="2020-12-31"
-                  required
+                >To*<input type="date" name="endDate" required
               /></label>
             </div>
             <div class="grid-two">
@@ -214,7 +215,9 @@
             >
           </fieldset>
         </div>
-        <button class="" type="hidden" value="submit">Make Reservation</button>
+        <button class="" type="hidden" value="submit">
+          Confirm Reservation
+        </button>
       </form>
     </main>
 
