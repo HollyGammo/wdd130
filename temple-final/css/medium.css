@@ -104,6 +104,9 @@
     .slc-scroll {
       background-image: url("images/slakem.webp");
     }
+    .draper-scroll {
+      background-image: url("images/draperm.webp");
+    }
     /*====Welcome====*/
     .little-image, .pill {
       float: left;
