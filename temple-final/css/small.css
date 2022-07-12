@@ -143,6 +143,10 @@
     display: block;
     list-style: none;
   }
+
+  a:hover {
+    color: #d6b6c2;
+  }
   
   /*====Footer====*/
   footer {
@@ -285,7 +289,6 @@
   /*====Background Image Scrolls====*/
   .scroll {
     position: static;
-    height: 300px;
     background-attachment: scroll;
     background-position: center center;
     background-repeat: no-repeat;
@@ -294,16 +297,14 @@
     margin: 0px;
     justify-items: center;
   }
-  
-  .sm-scroll {
-    position: static;
+  .scroll-lg{
+    height: 300px;
+  }
+  .scroll-md{
+    height: 200px;
+  }
+  .scroll-sm {
     height: 100px;
-    background-attachment: scroll;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    margin: 0px;
   }
   
   /*=======SCROLL IMAGES======*/
@@ -317,6 +318,10 @@
   
   .feature-scroll {
     background-image: url("images/dcday.jpeg");
+  }
+
+  .temple-scroll {
+    background-image: url("images/tucson-lg.webp");
   }
   
   /*================= HOME PAGE ===================*/

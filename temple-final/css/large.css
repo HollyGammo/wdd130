@@ -32,15 +32,17 @@
   
     /*---Background Image Scrolls---*/
     .scroll {
-      height: 450px;
       position: initial;
       background-attachment: fixed;
     }
-  
-    .sm-scroll {
+    .scroll-lg{
+      height: 450px;
+    }
+    .scroll-md{
+      height: 325px;
+    }
+    .scroll-sm {
       height: 200px;
-      position: initial;
-      background-attachment: fixed;
     }
   
     /*=====SCROLL IMAGES=====*/
@@ -54,6 +56,10 @@
   
     .feature-scroll {
       background-image: url("images/dcday.jpeg");
+    }
+
+    .temple-scroll {
+      background-image: url("images/tucsonlg.webp");
     }
   
     /*====Contact====*/
