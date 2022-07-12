@@ -49,17 +49,17 @@
     .dc-scroll {
       background-image: url("images/dcpl.webp");
     }
-  
     .res-scroll {
       background-image: url("images/twins-l.webp");
     }
-  
     .feature-scroll {
       background-image: url("images/dcday.jpeg");
     }
-
     .temple-scroll {
       background-image: url("images/tucsonlg.webp");
+    }
+    .slc-scroll {
+      background-image: url("images/slakel.webp");
     }
   
     /*====Contact====*/
