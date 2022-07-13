@@ -1,145 +1,146 @@
 @media only screen and (min-width: 800px) {
-    body {
-      margin: 0px auto;
-      max-width: none;
-    }
-  
-    h1 {
-      font-size: 3rem;
-    }
-  
-    header img {
-      max-width: 125px;
-      right: 700px;
-    }
-  
-    .block {
-      max-width: 900px;
-    }
-  
-    .serv-img {
-      margin: 40px 10px 5px;
-    }
-  
-    .sp-services p {
-      padding: 1.5rem 8rem 2rem;
-    }
-  
-     /*====Home====*/
-     .feature-para {
-      padding: 2rem 8rem;
-    }
-  
-    /*---Background Image Scrolls---*/
-    .scroll {
-      position: initial;
-      background-attachment: fixed;
-    }
-    .scroll-lg{
-      height: 450px;
-    }
-    .scroll-md{
-      height: 325px;
-    }
-    .scroll-sm {
-      height: 200px;
-    }
-  
-    /*=====SCROLL IMAGES=====*/
-    .dc-scroll {
-      background-image: url("images/dcpl.webp");
-    }
-    .res-scroll {
-      background-image: url("images/twins-l.webp");
-    }
-    .feature-scroll {
-      background-image: url("images/dcday.jpeg");
-    }
-    .temple-scroll {
-      background-image: url("images/tucsonlg.webp");
-    }
-    .slc-scroll {
-      background-image: url("images/slakel.webp");
-    }
-    .draper-scroll {
-      background-image: url("images/draperlg.webp");
-    }
-    .orl-scroll {
-      background-image: url("images/orlando-l.webp");
-    }
-    .poca-scroll {
-      background-image: url("images/poca-l.webp");
-    }
-    .amen-scroll {
-      background-image: url("images/amenities.webp");
-    }
-    .lob-scroll {
-      background-image: url("images/lobby.webp");
-    }
-    .peony-scroll {
-      background-image: url("images/blush-l.webp");
-    }
-    
-    /*====Contact====*/
-    .grid-two {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 1.5rem;
+  body {
+    margin: 0px auto;
+    max-width: none;
   }
-  
-    .con2 {
-      margin: 50px 0 50px 50px;
-      padding: 20px 40px 40px 40px;
-    }
-  
-    .con-form {
-      margin: 50px 50px 50px 0px;
-      padding: 20px;
-    }
-  
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  header img {
+    max-width: 125px;
+    right: 700px;
+  }
+
+  .block {
+    max-width: 900px;
+  }
+
+  .serv-img {
+    margin: 40px 10px 5px;
+  }
+
+  .sp-services p {
+    padding: 1.5rem 8rem 2rem;
+  }
+
+  /*====Home====*/
+  .feature-para {
+    padding: 2rem 8rem;
+  }
+
+  /*---Background Image Scrolls---*/
+  .scroll {
+    position: initial;
+    background-attachment: fixed;
+  }
+  .scroll-lg {
+    height: 450px;
+  }
+  .scroll-md {
+    height: 325px;
+  }
+  .scroll-sm {
+    height: 200px;
+  }
+
+  /*====Contact====*/
+  .grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+  }
+
+  .con2 {
+    margin: 50px 0 50px 50px;
+    padding: 20px 40px 40px 40px;
+  }
+
+  .con-form {
+    margin: 50px 50px 50px 0px;
+    padding: 20px;
+  }
+
   /*====Reservation====*/
   .res-form {
-      margin: 50px 150px;
-      padding: 15px;
+    margin: 50px 150px;
+    padding: 15px;
   }
-  
+
   /*====Services Page====*/
   .service-grid {
-      display: grid;
-      grid-template-columns: 350px 1fr;
-    }
-    
+    display: grid;
+    grid-template-columns: 350px 1fr;
+  }
+
   .amenities p {
-      grid-column: 2/3;
-      text-align: left;
-      margin: 20px 180px 0px 0px;
-      padding: 2px 40px 0px 20px;
-    }
-    .amenities .sm-heading {
-      font-size: 1.1rem;
-      padding: 6px 0px 5px 20px;
-      margin: 30px 150px 0px 0px;
-      background: linear-gradient(to left, rgba(114, 148, 178, 0), rgba(114, 148, 178, 1));
+    grid-column: 2/3;
+    text-align: left;
+    margin: 20px 180px 0px 0px;
+    padding: 2px 40px 0px 20px;
   }
-    
-    .amenities img {
-      margin: 30px 0px 0px 145px; 
-    }
-  
-    .spacer2 {
-      margin-top: 80px;
+  .amenities .sm-heading {
+    font-size: 1.1rem;
+    padding: 6px 0px 5px 20px;
+    margin: 30px 150px 0px 0px;
+    background: linear-gradient(
+      to left,
+      rgba(114, 148, 178, 0),
+      rgba(114, 148, 178, 1)
+    );
   }
-  
+
+  .amenities img {
+    margin: 30px 0px 0px 145px;
+  }
+
+  .spacer2 {
+    margin-top: 80px;
+  }
+
   /*=======TEMPLE PAGE======*/
   .tmpl {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 20px 50px 0px 50px;
   }
 
- 
   .tempDiv {
     padding: 30px;
   }
 
+  /*=====SCROLL IMAGES=====*/
+  .dc-scroll {
+    background-image: url("images/dcpl.webp");
   }
-  
+  .res-scroll {
+    background-image: url("images/twins-l.webp");
+  }
+  .feature-scroll {
+    background-image: url("images/dcday.jpeg");
+  }
+  .temple-scroll {
+    background-image: url("images/tucsonlg.webp");
+  }
+  .slc-scroll {
+    background-image: url("images/slakel.webp");
+  }
+  .draper-scroll {
+    background-image: url("images/draperlg.webp");
+  }
+  .orl-scroll {
+    background-image: url("images/orlando-l.webp");
+  }
+  .poca-scroll {
+    background-image: url("images/poca-l.webp");
+  }
+  .amen-scroll {
+    background-image: url("images/amenities.webp");
+  }
+  .lob-scroll {
+    background-image: url("images/lobby-lg.webp");
+  }
+  .peony-scroll {
+    background-image: url("images/blush-l.webp");
+  }
+}
