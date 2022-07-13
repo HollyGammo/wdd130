@@ -107,6 +107,9 @@
     .draper-scroll {
       background-image: url("images/draperm.webp");
     }
+    .poca-scroll {
+      background-image: url("images/poca-m.webp");
+    }
     /*====Welcome====*/
     .little-image, .pill {
       float: left;
