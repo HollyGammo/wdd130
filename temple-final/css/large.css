@@ -65,11 +65,21 @@
       background-image: url("images/draperlg.webp");
     }
     .orl-scroll {
-      background-image: url("images/orland-l.webp");
+      background-image: url("images/orlando-l.webp");
     }
     .poca-scroll {
       background-image: url("images/poca-l.webp");
     }
+    .amen-scroll {
+      background-image: url("images/amenities.webp");
+    }
+    .lob-scroll {
+      background-image: url("images/lobby.webp");
+    }
+    .peony-scroll {
+      background-image: url("images/blush-l.webp");
+    }
+    
     /*====Contact====*/
     .grid-two {
       display: grid;

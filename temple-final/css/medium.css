@@ -107,8 +107,17 @@
     .draper-scroll {
       background-image: url("images/draperm.webp");
     }
+    .orl-scroll {
+      background-image: url("images/orlando-m.webp");
+    }
     .poca-scroll {
       background-image: url("images/poca-m.webp");
+    }
+    .lob-scroll {
+      background-image: url("images/lobby-m.webp");
+    }
+    .peony-scroll {
+      background-image: url("images/blush-m.webp");
     }
     /*====Welcome====*/
     .little-image, .pill {

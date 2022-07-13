@@ -326,8 +326,17 @@
   .draper-scroll {
     background-image: url("images/drapers.webp");
   }
+  .orl-scroll {
+    background-image: url("images/orlando-s.webp");
+  }
   .poca-scroll {
     background-image: url("images/poca-s.webp");
+  }
+  .lob-scroll {
+    background-image: url("images/lobby-s.webp");
+  }
+  .peony-scroll {
+    background-image: url("images/blush-s.webp");
   }
   
   /*================= HOME PAGE ===================*/
