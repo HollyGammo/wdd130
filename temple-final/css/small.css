@@ -453,7 +453,7 @@ label select:required {
 }
 
 label input:required:valid,
-select:valid {
+label select:valid {
   border-left: #ba7b92 solid 6px;
 }
 
@@ -501,9 +501,7 @@ form label.top select {
 }
 
 /*=========RESERVATIONS PAGE============*/
-.room {
-  width: 50px;
-}
+
 /*=============SERVICES PAGE=============*/
 .service-grid {
   text-align: center;

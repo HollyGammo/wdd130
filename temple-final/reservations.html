@@ -58,7 +58,7 @@
       <section class="block wh">
         <div class="welcome-para">
           <h2>Guest Rooms & Suites</h2>
-          <a href="rooms.html"
+          <a href="rooms.html" title="Room Page"
             ><button class="reg-button">&nbsp; Room Options &nbsp;</button></a
           >
           <br />
@@ -129,9 +129,9 @@
                 >
               </div>
               <div>
-                <label required
+                <label
                   >Number of Rooms Needed &nbsp;
-                  <select name="how many" required>
+                  <select for="rooms" name="how many" required>
                     <option selected disabled value="">
                       # of Rooms &#9662;
                     </option>
@@ -161,7 +161,7 @@
             <div class="grid-two">
               <label
                 >Select Location:
-                <select name="area" required>
+                <select for="location" name="location" required>
                   <option selected disabled value="">
                     Select Hotel Location &#9662;
                   </option>
@@ -179,7 +179,7 @@
               </label>
               <label
                 >Number of Guests:
-                <select name="area" required>
+                <select for="guests" name="guests" required>
                   <option selected disabled value="">
                     # of Guests &#9662;
                   </option>
@@ -215,9 +215,11 @@
             >
           </fieldset>
         </div>
-        <button class="" type="hidden" value="submit">
-          Confirm Reservation
-        </button>
+        <a href="thanks.html" title="Thank You"
+          ><button class="reg-button" type="hidden" value="submit">
+            &nbsp; Confirm Reservation &nbsp;
+          </button></a
+        >
       </form>
     </main>
 
