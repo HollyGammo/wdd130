@@ -143,4 +143,10 @@
   .peony-scroll {
     background-image: url("images/blush-l.webp");
   }
+  .thanks-scroll {
+    background-image: url("images/thanksl.webp");
+  }
+  .room-scroll {
+    background-image: url("images/japan.webp");
+  }
 }
