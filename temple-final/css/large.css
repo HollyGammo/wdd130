@@ -67,7 +67,9 @@
     .orl-scroll {
       background-image: url("images/orland-l.webp");
     }
-  
+    .poca-scroll {
+      background-image: url("images/poca-l.webp");
+    }
     /*====Contact====*/
     .grid-two {
       display: grid;
