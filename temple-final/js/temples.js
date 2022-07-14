@@ -1,12 +1,12 @@
 const requestURL =  "https://hollygammo.github.io/wdd130/temple-final/json/temples.json";
-const cards = document.querySelector('.temple-cards');
+const cards = document.querySelector(".temple-cards");
 
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    const temples = jsonObject['temples'];
+    const temples = jsonObject["temples"];
     console.log(jsonObject);
     temples.forEach(templeCard);
   }); 
