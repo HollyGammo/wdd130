@@ -4,7 +4,7 @@ const captionDesc = document.querySelector("#con-desc");
 const humidityPrcnt = document.querySelector("#humidity");
 
 const url =
-  "https://api.openweathermap.org/data/2.5/onecall?lat=38.9637&lon=-76.9908&exclude=minutely,hourly&units=imperial&appid=cbdbf1656275e48900a3931f13929b10";
+  "https://api.openweathermap.org/data/3.0/onecall?lat=38.9637&lon=-76.9908&exclude=minutely,hourly&units=imperial&appid=42b85a0a1dd9570bad1f6f146629adac";
 
 apiFetch(url);
 
