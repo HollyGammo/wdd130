@@ -5,14 +5,13 @@ const humidityPrcnt = document.querySelector("#humidity");
 
 const url =
   "https://api.openweathermap.org/data/2.5/onecall?lat=38.9637&lon=-76.9908&exclude=minutely,hourly&units=imperial&appid=cbdbf1656275e48900a3931f13929b10";
-
 apiFetch(url);
 
 async function apiFetch(apiURL) {
   const response = await fetch(apiURL);
   if (response.ok) {
     const data = await response.json();
-    //console.log(data);
+    console.log(data);
     displayResults(data);
   } else {
     throw Error(await response.text());
@@ -29,15 +28,10 @@ function displayResults(data) {
   weatherIcon.setAttribute("src", iconsrc);
   weatherIcon.setAttribute("alt", desc);
   captionDesc.textContent = desc;
-}
 
 // 3-Day Weather Forecast//
-const apiURL =
-  "https://api.openweathermap.org/data/2.5/forecast?lat=38.9637&lon=-76.9908&units=imperial&APPID=cbdbf1656275e48900a3931f13929b10";
 
-fetch(apiURL)
-  .then((response) => response.json())
-  .then((jsObject) => {
+function weatherResults(data) {
     var weekday = new Array(7);
     weekday[0] = "Sun";
     weekday[1] = "Mon";
@@ -47,25 +41,26 @@ fetch(apiURL)
     weekday[5] = "Fri";
     weekday[6] = "Sat";
 
-    const data = jsObject.list.filter((element) =>
-      element.dt_txt.includes("18:00:00")
-    );
-    //console.log(data);
+    const data = jsObject.daily.list.filter((element) =>
+    element.dt.includes("18:00:00")
+  );
+    console.log(data);
 
     const dayOfWeek = document.getElementsByClassName("day");
-    const weatherIcon = document.getElementsByClassName("w-icon");
+    const forecastIcon = document.getElementsByClassName("w-icon");
     const dayTemp = document.getElementsByClassName("d-temp");
 
-    for (var i = 0; i < data.length; i++) {
-      var d = new Date(data[i].dt_txt);
+    for (var i = 0; i < data.daily.length; i++) {
+      var d = new Date(data.daily[i].dt);
       dayOfWeek[i].textContent = weekday[d.getDay()];
 
       const imagesrc =
-        "https://openweathermap.org/img/w/" + data[i].weather[0].icon + ".png";
-      const description = data[i].weather[0].description;
-      weatherIcon[i].setAttribute("src", imagesrc);
-      weatherIcon[i].setAttribute("alt", description);
+        "https://openweathermap.org/img/w/" + data.daily[i].weather[0].icon + ".png";
+      const description = data.daily[i].weather[0].description;
+      forecastIcon[i].setAttribute("src", imagesrc);
+      forecastIcon[i].setAttribute("alt", description);
 
-      dayTemp[i].innerHTML = Math.round(data[i].main.temp) + " &#176;F";
+      dayTemp[i].innerHTML = Math.round(data.daily[i].temp) + " &#176;F";
     }
-  });
+}
+}
