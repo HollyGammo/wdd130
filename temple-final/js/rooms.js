@@ -16,7 +16,6 @@ function innRooms(rooms) {
     let image = document.querySelector(".roomPic");
     let image2 = document.querySelector(".roomPic2");
     let name = document.querySelector(".roomName");
-    let amenities = document.querySelector(".roomAmen");
     let features = document.querySelector(".roomFeat");
     let check = document.querySelector(".roomCheck");
     let occupancy = document.querySelector(".roomOcc");
@@ -29,7 +28,6 @@ function innRooms(rooms) {
     image2.setAttribute('alt', `${rooms.name}`);
 
     name.innerHTML = `${rooms.name}`;
-    amenities.innerHTML = `<strong>Amenities: </strong>${rooms.amenities}`;
     features.innerHTML = `<strong>Room Features: </strong>${rooms.features}`;
     check.innerHTML = `<strong>Check-in/Check-out: </strong>${rooms.check}`;
     occupancy.innerHTML = `<strong>Occupancy: </strong>${rooms.occupancy}`;
