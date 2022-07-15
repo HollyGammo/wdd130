@@ -135,6 +135,11 @@
     margin: 30px 0;
   }
 
+  /*===ROOMS====*/
+.guest-rooms {
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
   /*=====BACKGROUND SCROLL IMAGES=====*/
   .dc-scroll {
     background-image: url("images/dcpm.webp");

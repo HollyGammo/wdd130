@@ -102,12 +102,21 @@
   /*=======TEMPLE PAGE======*/
   .tmpl {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    margin: 20px 50px 0px 50px;
+    margin: 10px 100px 10px 100px;
+    gap: 40px;
   }
 
-  .tempDiv {
-    padding: 30px;
-  }
+  
+
+  /*=======TEMPLE PAGE======*/
+.guest-rooms {
+   margin: 10px 100px 10px 100px;
+   gap: 40px;
+}
+
+.roomDiv, .tempDiv {
+  margin: 0;
+}
 
   /*=====BACKGROUND SCROLL IMAGES=====*/
   .dc-scroll {
