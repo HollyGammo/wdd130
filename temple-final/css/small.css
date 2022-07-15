@@ -12,8 +12,10 @@ body {
 }
 
 h1 {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-family: "Gwendolyn", cursive;
+  text-shadow: 2px 2px .5px #e9f5ff;
+  line-height: 1.6rem;
 }
 
 h2 {
@@ -30,10 +32,7 @@ p {
   line-height: 1.2rem;
 }
 
-a {
-  color: #000000;
-  text-decoration: none;
-}
+
 
 .block {
   margin: 0 auto;
@@ -71,7 +70,7 @@ header {
   position: absolute;
   top: 40px;
   width: 100%;
-  padding: 10px 3rem 10px;
+  padding: 10px 20px 10px 90px;
   border-top: 4px solid #7294b2;
   background: linear-gradient(
     to right,
@@ -82,12 +81,13 @@ header {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 header img {
   position: absolute;
   top: 10px;
-  left: 30px;
+  left: 20px;
   max-width: 55px;
 }
 
@@ -142,6 +142,11 @@ nav li:hover {
 .responsive {
   display: block;
   list-style: none;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
 }
 
 a:hover {
@@ -230,7 +235,7 @@ form button {
   margin-left: 0.5rem;
 }
 /*like Button*/
-.tmpl button {
+.temple-cards button {
   border: 2px solid rgb(65, 81, 109);
   font-size: 1rem;
   padding: 4px 12px;
@@ -535,18 +540,28 @@ form label.top select {
   text-align: center;
 }
 
-/*========TEMPLES PAGE=========*/
-.tmpl {
+/*========TEMPLES & ROOMS PAGE=========*/
+.temple-cards, .guest-rooms {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
 }
 
-.tempDiv img {
+.tempDiv p, .roomDiv p {
+  padding: 4px 20px;
+}
+
+.tempDiv img, .roomDiv img {
   object-fit: cover;
   width: 100%;
+}
+
+.tempDiv img {
   max-width: 500px;
-  height: auto;
+}
+
+.roomPic, .roomPic2 {
+  max-width: 320px;
 }
 
 .tempDiv, .roomDiv {
@@ -559,7 +574,7 @@ form label.top select {
   line-height: 1.4rem;
 }
 
-.tempName {
+.tempName, .roomName {
   font-size: 1.4rem;
   font-weight: bold;
   margin: 20px 0;
@@ -571,7 +586,7 @@ form label.top select {
 }
 
 .card-line {
-  margin: 30px 0 20px;
+  margin: 20px;
   border: 2px solid #7294b2;
 }
 
@@ -579,12 +594,15 @@ form label.top select {
   text-align: center;
 }
 
-/*========ROOMS PAGE=========*/
-.guest-rooms {
-  display: grid;
-  grid-template-columns: 1fr;
-  text-align: center; 
+.roomPrice {
+  font-size: 1.5rem;
 }
+
+.roomCan {
+  background-color: #324f69;
+  color: white;
+}
+/*========ROOMS PAGE=========*/
 
 
 /*=======BACKGROUND SCROLL IMAGES======*/

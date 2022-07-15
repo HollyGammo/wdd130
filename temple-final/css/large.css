@@ -5,7 +5,7 @@
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   header img {
@@ -99,8 +99,12 @@
     margin-top: 80px;
   }
 
+  .special-services {
+    margin: 0 80px;
+  }
+
   /*=======TEMPLE PAGE======*/
-  .tmpl {
+  .temple-cards {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 10px 100px 10px 100px;
     gap: 40px;
@@ -115,7 +119,11 @@
 }
 
 .roomDiv, .tempDiv {
-  margin: 0;
+  margin: 0 auto;
+}
+
+.roomDiv {
+ 
 }
 
   /*=====BACKGROUND SCROLL IMAGES=====*/

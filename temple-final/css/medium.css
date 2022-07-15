@@ -5,8 +5,7 @@
   }
 
   header {
-    display: flex;
-    justify-content: flex-end;
+    padding: 20px 60px;
   }
 
   header img {
@@ -15,7 +14,7 @@
   }
 
   h1 {
-    font-size: 2.3rem;
+    font-size: 2.7rem;
   }
 
   button {
@@ -36,6 +35,11 @@
     padding: 2rem 4rem;
   }
 
+  .grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+  }
   /*====Navigation Bar====*/
   .menu-link {
     display: none;
@@ -127,7 +131,7 @@
   }
 
   /*===Temple====*/
-  .tmpl {
+  .temple-cards{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
@@ -136,9 +140,9 @@
   }
 
   /*===ROOMS====*/
-.guest-rooms {
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-}
+  .guest-rooms {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));  
+ }
 
   /*=====BACKGROUND SCROLL IMAGES=====*/
   .dc-scroll {
