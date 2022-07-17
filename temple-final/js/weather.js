@@ -1,8 +1,4 @@
-const currentTemp = document.querySelector("#temp");
-const weatherIcon = document.querySelector("#weather-icon");
-const captionDesc = document.querySelector("#con-desc");
-const humidityPrcnt = document.querySelector("#humidity");
-
+const forecast = document.querySelector(".weather-days");
 const url =
   "https://api.openweathermap.org/data/2.5/onecall?lat=38.9637&lon=-76.9908&exclude=minutely,hourly&units=imperial&appid=cbdbf1656275e48900a3931f13929b10";
 
@@ -12,7 +8,7 @@ async function apiFetch(apiURL) {
   const response = await fetch(apiURL);
   if (response.ok) {
     const data = await response.json();
-    //console.log(data);
+    console.log(data);
     displayResults(data);
   } else {
     throw Error(await response.text());
@@ -20,52 +16,68 @@ async function apiFetch(apiURL) {
 }
 
 function displayResults(data) {
-  currentTemp.innerHTML = `${data.current.temp.toFixed(0)} &#176;F`;
-  humidityPrcnt.innerHTML = `${data.current.humidity}%`;
+  for (let i = 0; i < 4; i++) {
+    const dayData = data.daily[i];
+    const wDiv = document.createElement("div");
+    const wTitle = document.createElement("p");
+    const image = document.createElement("img");
+    const dayTemp = document.createElement("p");
+    const wDesc = document.createElement("p");
+    const humidity = document.createElement("p");
+    const forecastDate = new Intl.DateTimeFormat("en-US", {
+      weekday: "long",
+    }).format(new Date(dayData.dt * 1000));
 
-  const iconsrc = `https://openweathermap.org/img/w/${data.current.weather[0].icon}.png`;
-  const desc = data.current.weather[0].description;
+    if (i == 0) {
+      wTitle.textContent = `Today's Weather:`;
+    } else {
+      wTitle.textContent = `${forecastDate}`;
+    }
 
-  weatherIcon.setAttribute("src", iconsrc);
-  weatherIcon.setAttribute("alt", desc);
-  captionDesc.textContent = desc;
+    const desc = dayData.weather[0].description;
+    dayTemp.textContent = `Temp: ${dayData.temp.day.toFixed(0)} °F`;
+    humidity.textContent = `Humidity: ${dayData.humidity}%`;
+    wDesc.textContent = desc;
+
+    image.setAttribute(
+      "src",
+      `https://openweathermap.org/img/w/${dayData.weather[0].icon}.png`
+    );
+    image.setAttribute("alt", desc);
+
+    wDiv.appendChild(wTitle);
+    wDiv.appendChild(image);
+    wDiv.appendChild(dayTemp);
+    wDiv.appendChild(wDesc);
+    wDiv.appendChild(humidity);
+    forecast.appendChild(wDiv);
+  }
 }
 
-// 3-Day Weather Forecast//
-const apiURL =
-  "https://api.openweathermap.org/data/2.5/forecast?lat=38.9637&lon=-76.9908&units=imperial&APPID=cbdbf1656275e48900a3931f13929b10";
+/*=====ALERTS=====*/
+const severeWeather = document.querySelector(".weather-alerts");
 
-fetch(apiURL)
-  .then((response) => response.json())
-  .then((jsObject) => {
-    var weekday = new Array(7);
-    weekday[0] = "Sun";
-    weekday[1] = "Mon";
-    weekday[2] = "Tue";
-    weekday[3] = "Wed";
-    weekday[4] = "Thu";
-    weekday[5] = "Fri";
-    weekday[6] = "Sat";
+function getAlerts(data) {
+    const warning = document.createElement("div");
+    const event = document.createElement("p");
+    const tags = document.createElement("p");
+    const description = document.createElement("p");
 
-    const data = jsObject.list.filter((element) =>
-      element.dt_txt.includes("18:00:00")
-    );
-    //console.log(data);
+    event.textContent = `${data.alerts.event}Event:`;
+    tags.textContent = `${data.alerts.tags}End:`;
+    description.textContent = `${data.alerts.description}Descriptions:`;
+    
+    warning.appendChild(event);
+    warning.appendChild(tags);
+    warning.appendChild(description);
+    severeWeather.appendChild(warning);  
+}
 
-    const dayOfWeek = document.getElementsByClassName("day");
-    const weatherIcon = document.getElementsByClassName("w-icon");
-    const dayTemp = document.getElementsByClassName("d-temp");
+getAlerts()
 
-    for (var i = 0; i < data.length; i++) {
-      var d = new Date(data[i].dt_txt);
-      dayOfWeek[i].textContent = weekday[d.getDay()];
+const closeBtn = document.querySelector(".close");
+closeBtn.addEventListener('click', closeFunction);
 
-      const imagesrc =
-        "https://openweathermap.org/img/w/" + data[i].weather[0].icon + ".png";
-      const description = data[i].weather[0].description;
-      weatherIcon[i].setAttribute("src", imagesrc);
-      weatherIcon[i].setAttribute("alt", description);
-
-      dayTemp[i].innerHTML = Math.round(data[i].main.temp) + " &#176;F";
-    }
-  });
+function closeFunction() {
+    this.parentElement.style.display = 'none';
+}

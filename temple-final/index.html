@@ -47,8 +47,8 @@
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
-    <div class="blue-background" class="weather-alerts">
-      <span class="stop"> ------ X</span>
+    <div class="weather-alerts blue-background">
+      <span class="close">&#10060;</span>
     </div>
 
 
@@ -96,42 +96,21 @@
         <h2 class="scroll-title">Guest Rooms & Suites</h2>
         <a href="reservations.html" title="Reservations"><button class="style-button">Make Reservation</button></a>  
       </div>
+      <div class="heading-banner"></div>
 
 
-      <div class="heading-banner">
-        <h2>Weather</h2>
-      </div>
       <h2 class="sec-title">Weather in D.C. Area</h2>
-      <div class=" block weather">
-        <div class="currentWeather">
-            <div class="today-w">Today's Weather: </div>
-            <span id="iconsrc"><img id="weather-icon" src="" alt="" /></span><span id="temp"></span>
-            <p><span id="con-desc"></span></p>
-            <p>Humidity: <span id="humidity"></span></p>   
-        </div>
-        <table>
-            <tr>
-              <th class="tdf-title"colspan="3">3 Day Weather Forecast</th>
-            </tr>
-            <tr>
-              <th class="day"></th>
-              <th class="day"></th>
-              <th class="day"></th>
-            </tr>
-            <tr>
-              <td class="f-icon"><img src="#" alt="" class="w-icon"></td>
-              <td class="f-icon"><img src="#" alt="" class="w-icon"></td>
-              <td class="f-icon"><img src="#" alt="" class="w-icon"></td>
-            </tr>
-            <tr>
-              <td class="temp"></td>
-              <td class="temp"></td>
-              <td class="temp"></td>
-            </tr>
-        </table>
-      </div>
+
       
-      <div class="cards"></div>
+      
+      
+      <div>
+        <div class="heading-banner">
+          <h2>Weather</h2>
+      </div>
+      <div class="scroll scroll-auto">
+        <div class="weather-days"></div>
+      </div>
 
       <div>
         <div class="heading-banner">
@@ -227,7 +206,6 @@
       </p>
       <script src="js/main.js"></script>
       <script src="js/weather.js"></script>
-      
     </footer>
   </body>
 </html>

@@ -92,6 +92,9 @@
   .scroll-sm {
     height: 150px;
   }
+  .scroll-auto {
+    height: auto;
+  }
 
   /*====Welcome====*/
   .little-image,
@@ -101,19 +104,11 @@
   }
 
   /*====Weather====*/
-  .weather {
+  .weather-days {
     display: flex;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     gap: 30px;
     margin-bottom: 40px;
-  }
-
-  .w-icon {
-    width: 80px;
-  }
-
-  .currentWeather {
-    grid-column: 1/2;
   }
 
   /*====Services====*/
@@ -189,4 +184,8 @@
   .room-scroll {
     background-image: url("images/japanm.webp");
   }
+  .weath-scroll {
+    background-image: url("images/.webp");
+  }
+  
 }
