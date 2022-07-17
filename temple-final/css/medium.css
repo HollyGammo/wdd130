@@ -131,7 +131,7 @@
   }
 
   /*===Temple====*/
-  .temple-cards{
+  .temple-cards {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
@@ -142,6 +142,14 @@
   /*===ROOMS====*/
   .guest-rooms {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));  
+ }
+
+ /*=====MISSIONARY=====*/
+ .full-time {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ }
+ .ftm2, .ftm5, .ft8 {
+  grid-column: 2/3;
  }
 
   /*=====BACKGROUND SCROLL IMAGES=====*/

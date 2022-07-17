@@ -541,7 +541,7 @@ form label.top select {
 }
 
 /*========TEMPLES & ROOMS PAGE=========*/
-.temple-cards, .guest-rooms {
+.temple-cards, .guest-rooms, .full-time {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
@@ -603,6 +603,9 @@ form label.top select {
   color: white;
 }
 
+/*========MISSIONARY=========*/
+
+
 /*=======BACKGROUND SCROLL IMAGES======*/
 .dc-scroll {
   background-image: url("images/dcps.webp");
@@ -640,3 +643,7 @@ form label.top select {
 .room-scroll {
   background-image: url("images/japans.webp");
 }
+
+
+
+

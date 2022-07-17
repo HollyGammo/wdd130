@@ -4,7 +4,7 @@ const captionDesc = document.querySelector("#con-desc");
 const humidityPrcnt = document.querySelector("#humidity");
 
 const url =
-  "https://api.openweathermap.org/data/3.0/onecall?lat=38.9637&lon=-76.9908&exclude=minutely,hourly&units=imperial&appid=42b85a0a1dd9570bad1f6f146629adac";
+  "https://api.openweathermap.org/data/2.5/onecall?lat=38.9637&lon=-76.9908&exclude=minutely,hourly&units=imperial&appid=cbdbf1656275e48900a3931f13929b10";
 
 apiFetch(url);
 
@@ -12,7 +12,7 @@ async function apiFetch(apiURL) {
   const response = await fetch(apiURL);
   if (response.ok) {
     const data = await response.json();
-    console.log(data);
+    //console.log(data);
     displayResults(data);
   } else {
     throw Error(await response.text());
@@ -50,7 +50,7 @@ fetch(apiURL)
     const data = jsObject.list.filter((element) =>
       element.dt_txt.includes("18:00:00")
     );
-    console.log(data);
+    //console.log(data);
 
     const dayOfWeek = document.getElementsByClassName("day");
     const weatherIcon = document.getElementsByClassName("w-icon");
