@@ -92,9 +92,6 @@
   .scroll-sm {
     height: 150px;
   }
-  .scroll-auto {
-    height: auto;
-  }
 
   /*====Welcome====*/
   .little-image,
@@ -185,7 +182,7 @@
     background-image: url("images/japanm.webp");
   }
   .weath-scroll {
-    background-image: url("images/.webp");
+    background-image: url("images/cloudy.webp");
   }
   
 }

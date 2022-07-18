@@ -35,9 +35,9 @@ function displayResults(data) {
     }
 
     const desc = dayData.weather[0].description;
-    dayTemp.textContent = `Temp: ${dayData.temp.day.toFixed(0)} °F`;
+    dayTemp.textContent = `${dayData.temp.day.toFixed(0)} °F`;
     humidity.textContent = `Humidity: ${dayData.humidity}%`;
-    wDesc.textContent = desc;
+    wDesc.textContent = capitalize(desc);
 
     image.setAttribute(
       "src",
@@ -52,6 +52,12 @@ function displayResults(data) {
     wDiv.appendChild(humidity);
     forecast.appendChild(wDiv);
   }
+}
+
+function capitalize(str) {
+  return str.toLowerCase().split(' ').map(function(word) {
+    return (word.charAt(0).toUpperCase() + word.slice(1));
+  }).join(' ');
 }
 
 /*=====ALERTS=====*/
@@ -75,9 +81,7 @@ function getAlerts(data) {
 
 getAlerts()
 
-const closeBtn = document.querySelector(".close");
-closeBtn.addEventListener('click', closeFunction);
-
-function closeFunction() {
-    this.parentElement.style.display = 'none';
-}
+const close = document.querySelector("#close");
+close.addEventListener('click', () => {
+    severeWeather.style.display = 'none';
+});

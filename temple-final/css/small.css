@@ -258,6 +258,10 @@ form button {
   line-height: 2rem;
 }
 
+.special-banner {
+  border-top: 4px solid #7294b2;
+}
+
 .black-border {
   border: 1px solid black;
 }
@@ -342,7 +346,9 @@ form button {
   text-align: center;
 }
 
-
+.wDesc {
+  text-transform: capitalize;
+}
 
 /*====Featured Temple on Homepage====*/
 .feature-para {
@@ -574,7 +580,7 @@ form label.top select {
   background-image: url("images/orlando-s.webp");
 }
 .room-scroll {
-  background-image: url("images/japans.webp");
+  background-image: url("images/cloudy.webp");
 }
 
 

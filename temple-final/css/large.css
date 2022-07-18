@@ -24,6 +24,9 @@
   .sp-services p {
     padding: 1.5rem 8rem 2rem;
   }
+  .special-banner {
+    border-top: none;
+  }
 
   /*====Home====*/
   .feature-para {
@@ -44,7 +47,12 @@
   .scroll-sm {
     height: 200px;
   }
+  .scroll-auto {
+    width: 40rem;
+    border: 4px solid #7294b2;
+    margin: 0 auto;
 
+  }
   /*====Contact====*/
   .grid-two {
     display: grid;
@@ -167,7 +175,7 @@
     background-image: url("images/japan.webp");
   }
   .weath-scroll {
-    background-image: url("images/.webp");
+    background-image: url("images/cloudy.webp");
   }
   
 }
