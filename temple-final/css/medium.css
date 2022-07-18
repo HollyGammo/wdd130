@@ -3,81 +3,68 @@
     margin: 0px auto;
     max-width: 800px;
   }
-
   header {
     padding: 20px 60px;
   }
-
   header img {
     left: 40px;
     max-width: 100px;
   }
-
   h1 {
     font-size: 2.7rem;
   }
-
   button {
     font-size: 1.2rem;
   }
-
   .heading-banner {
     font-size: 2em;
     text-align: right;
   }
-
   .block {
     max-width: 600px;
     height: 100%;
   }
-
   .feature-para {
     padding: 2rem 4rem;
   }
-
   .grid-two {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1.5rem;
   }
+
   /*====Navigation Bar====*/
   .menu-link {
     display: none;
   }
-
   nav {
     display: flex;
     justify-content: center;
     padding: 0;
   }
-
   nav li {
     float: left;
   }
-
   nav ul li a {
     padding: 20px;
     font-size: 1.05rem;
   }
-
   .menu {
     display: inline;
   }
+
   /*====Footer====*/
   footer div {
     padding: 20px 20px 0 0;
   }
-
   .lower {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 40px 10px 40px;
     align-items: center;
   }
-
   .web {
     text-align: right;
   }
-
   .address {
     text-align: left;
   }
@@ -94,8 +81,7 @@
   }
 
   /*====Welcome====*/
-  .little-image,
-  .pill {
+  .little-image, .pill {
     float: left;
     margin: 0px 20px 15px 0px;
   }
@@ -104,15 +90,12 @@
   .weather-days {
     display: flex;
     grid-template-columns: auto;
-    gap: 30px;
-    margin-bottom: 40px;
   }
 
   /*====Services====*/
   .serv-img {
     margin: 40px 10px 5px;
   }
-
   .sp-services p {
     padding: 1.5rem 8rem 2rem;
   }
@@ -126,23 +109,22 @@
   .temple-cards {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
-
   .tempName {
     margin: 30px 0;
   }
 
   /*===ROOMS====*/
   .guest-rooms {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));  
- }
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
 
- /*=====MISSIONARY=====*/
- .full-time {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
- }
- .ftm2, .ftm5, .ft8 {
-  grid-column: 2/3;
- }
+  /*=====MISSIONARY=====*/
+  .full-time {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .ftm2, .ftm5, .ft8 {
+    grid-column: 2/3;
+  }
 
   /*=====BACKGROUND SCROLL IMAGES=====*/
   .dc-scroll {
@@ -184,5 +166,4 @@
   .weath-scroll {
     background-image: url("images/cloudy.webp");
   }
-  
 }
