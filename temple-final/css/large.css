@@ -147,12 +147,10 @@
     margin: 30px auto 0px;
     background
   }
-  
   .mySlides img {
     width: 100%;
     border: 4px solid #7294b2;
   }
-   
   .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -161,17 +159,14 @@
     font-size: 18px;
     font-weight: 600;
   }
-
   .text {
     text-align: center;
     font-size: 1.8rem;
     font-family: "Gwendolyn", cursive;
   }
-  
   .next {
     right: -30px;
   }
-  
   .prev {
     left: -30px;
   }
