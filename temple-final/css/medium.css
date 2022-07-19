@@ -128,14 +128,6 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 
-  /*=====MISSIONARY=====*/
-  .full-time {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-  .ftm2, .ftm5, .ft8 {
-    grid-column: 2/3;
-  }
-
   /*=====BACKGROUND SCROLL IMAGES=====*/
   .dc-scroll {
     background-image: url("images/dcpm.webp");
@@ -175,5 +167,8 @@
   }
   .weath-scroll {
     background-image: url("images/cloudy.webp");
+  }
+  .wedd-scroll {
+    background-image: url("images/chair.jpg");
   }
 }
