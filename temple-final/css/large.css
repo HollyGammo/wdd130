@@ -19,11 +19,6 @@
   .sp-services p {
     padding: 1.5rem 8rem 2rem;
   }
-  .special-banner {
-    border-top: none;
-  }
-
-  /*====Home====*/
   .feature-para {
     padding: 2rem 8rem;
   }
@@ -44,8 +39,6 @@
   }
   .scroll-auto {
     width: 50rem;
-    border: 4px solid #7294b2;
-    margin: 0 auto;
   }
   /*====Contact====*/
   .grid-two {
@@ -111,8 +104,6 @@
   }
   .roomDiv, .tempDiv {
     margin: 0 auto;
-  }
-  .roomDiv {
   }
 
   /*=====BACKGROUND SCROLL IMAGES=====*/

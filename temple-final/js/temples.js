@@ -7,23 +7,23 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const temples = jsonObject["temples"];
-    console.log(jsonObject);
+    //console.log(jsonObject);
     temples.forEach(templeCard);
   }); 
 
 function templeCard(temple) {
-    let card = document.querySelector(".tempDiv");
-    let imageSmall = document.querySelector(".tempPic");
-    let name = document.querySelector(".tempName");
-    let address = document.querySelector(".tempAddress");
-    let city = document.querySelector(".tempCity");
-    let phone = document.querySelector(".tempPhone");
-    let email = document.querySelector(".tempWeb");
-    let services = document.querySelector(".tempServ");
-    let history = document.querySelector(".tempHist");
-    let ordinances = document.querySelector(".tempOrd");
-    let sessions = document.querySelector(".tempSess");
-    let closures = document.querySelector(".tempClose");
+    const card = document.querySelector(".tempDiv");
+    const imageSmall = document.querySelector(".tempPic");
+    const name = document.querySelector(".tempName");
+    const address = document.querySelector(".tempAddress");
+    const city = document.querySelector(".tempCity");
+    const phone = document.querySelector(".tempPhone");
+    const email = document.querySelector(".tempWeb");
+    const services = document.querySelector(".tempServ");
+    const history = document.querySelector(".tempHist");
+    const ordinances = document.querySelector(".tempOrd");
+    const sessions = document.querySelector(".tempSess");
+    const closures = document.querySelector(".tempClose");
     
     imageSmall.setAttribute('src', "images/" + temple.imageSmall);
     imageSmall.setAttribute('alt', `${temple.name}`);
@@ -42,9 +42,7 @@ function templeCard(temple) {
       cards.appendChild(card);
  } 
 
-
  //=======LIKE BUTTONS========//
-templeCard ()
 
 function phillyCount() {
   if (localStorage.likePhilly) {

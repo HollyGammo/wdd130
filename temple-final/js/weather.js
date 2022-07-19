@@ -19,9 +19,9 @@ function displayResults(data) {
   for (let i = 0; i < 4; i++) {
     const dayData = data.daily[i];
     const wDiv = document.createElement("div");
-    const wTitle = document.createElement("p");
+    const wTitle = document.createElement("h2");
     const image = document.createElement("img");
-    const dayTemp = document.createElement("p");
+    const dayTemp = document.createElement("aside");
     const wDesc = document.createElement("p");
     const humidity = document.createElement("p");
     const forecastDate = new Intl.DateTimeFormat("en-US", {
@@ -55,33 +55,27 @@ function displayResults(data) {
 }
 
 function capitalize(str) {
-  return str.toLowerCase().split(' ').map(function(word) {
-    return (word.charAt(0).toUpperCase() + word.slice(1));
-  }).join(' ');
+  return str
+    .toLowerCase()
+    .split(" ")
+    .map(function (word) {
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join(" ");
 }
 
 /*=====ALERTS=====*/
-const severeWeather = document.querySelector(".weather-alerts");
+const alertEvent = document.querySelector(".alert-event");
+const alertSender = document.querySelector(".alert-desc");
+const severeWeather = document.querySelector("#weatherAlerts");
 
 function getAlerts(data) {
-    const warning = document.createElement("div");
-    const event = document.createElement("p");
-    const tags = document.createElement("p");
-    const description = document.createElement("p");
+  alertEvent.innerHTML = `<strong>${data.alerts[0].event}</strong>`;
+  const desc = `${data.alerts[0].sender_name}`;
 
-    event.textContent = `${data.alerts.event}Event:`;
-    tags.textContent = `${data.alerts.tags}End:`;
-    description.textContent = `${data.alerts.description}Descriptions:`;
-    
-    warning.appendChild(event);
-    warning.appendChild(tags);
-    warning.appendChild(description);
-    severeWeather.appendChild(warning);  
+  alertSender.textContent = desc;
 }
-
-getAlerts()
-
-const close = document.querySelector("#close");
-close.addEventListener('click', () => {
-    severeWeather.style.display = 'none';
-});
+const closeButton = document.querySelector("#close");
+closeButton.innerHTML = "X CLOSE ALERT";
+closeButton.addEventListener("click", () => severeWeather.remove());
+severeWeather.append(closeButton);
