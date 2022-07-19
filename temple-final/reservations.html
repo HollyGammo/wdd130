@@ -59,9 +59,9 @@
       <section class="block wh">
         <div class="welcome-para">
           <h2>Guest Rooms & Suites</h2>
-          <a href="rooms.html" title="Room Page"
-            ><button class="reg-button">&nbsp; Room Options &nbsp;</button></a
-          >
+          <form action="rooms.html">
+            <button class="reg-button">&nbsp; Room Options &nbsp;</button>
+          </form>
           <br />
           <br />
           <p>
@@ -79,7 +79,11 @@
         <h2>Reservation</h2>
       </div>
 
-      <form class="res-form pink-background black-border" action="thanks.html">
+      <form
+        class="res-form pink-background black-border"
+        method="get"
+        action="thanks.html"
+      >
         <div>
           <fieldset class="con1">
             <legend>Guest Information</legend>
@@ -216,11 +220,9 @@
             >
           </fieldset>
         </div>
-        <a href="thanks.html" title="Thank You"
-          ><button class="reg-button" type="hidden" value="submit">
-            &nbsp; Confirm Reservation &nbsp;
-          </button></a
-        >
+        <button type="hidden" value="submit">
+          &nbsp; Confirm Reservation &nbsp;
+        </button>
       </form>
     </main>
 
