@@ -140,7 +140,41 @@
 
   /*=======WEDDING SLIDER==========*/
   
+  .slideshow-container {
+    Width: 800px;
+    padding: 45px;
+    position: relative;
+    margin: 30px auto;
+    background
+  }
   
+  .mySlides img {
+    width: 100%;
+    border: 4px solid #7294b2;
+  }
+   
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .text {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Gwendolyn", cursive;
+  }
+  
+  .next {
+    right: -30px;
+  }
+  
+  .prev {
+    left: -30px;
+  }
 
   /*=====BACKGROUND SCROLL IMAGES=====*/
   .dc-scroll {

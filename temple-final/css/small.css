@@ -63,9 +63,9 @@ header {
   border-top: 4px solid #7294b2;
   background: linear-gradient(
     to right,
-    rgba(214, 182, 194, 0.08),
-    rgba(214, 182, 194, 0.6),
-    rgba(214, 182, 194, 1)
+    rgba(239, 209, 219, 0.08),
+    rgba(239, 209, 219, 0.6),
+    rgba(239, 209, 219, 1)
   );
   display: flex;
   justify-content: flex-end;
@@ -84,7 +84,7 @@ header img {
 
 /*====Navigation Menu====*/
 nav {
-  background-color: #d6b6c2;
+  background-color: #ecd1db;
   border-top: 4px solid #7294b2;
   border-bottom: 4px solid #7294b2;
   text-align: center;
@@ -112,7 +112,7 @@ nav li:hover a {
   color: #7294b2;
 }
 nav li:hover {
-  background-color: #fffbfe;
+  background-color: white;
 }
 .menu {
   list-style: none;
@@ -127,7 +127,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #d6b6c2;
+  color: #ecd1db;
 }
 
 /*====Footer====*/
@@ -172,7 +172,7 @@ button {
   font-size: 1rem;
   color: white;
   background-color: #7294b2;
-  border: 4px solid #d6b6c2;
+  border: 4px solid #ecd1db;
   border-radius: 50px;
   padding: 8px 15px;
 }
@@ -211,8 +211,8 @@ form button {
 .heading-banner {
   background: linear-gradient(
     to right,
-    rgba(214, 182, 194, 0.2),
-    rgba(214, 182, 194, 1)
+    rgba(239, 209, 219, 0.2),
+    rgba(239, 209, 219, 1)
   );
   border-top: 4px solid #7294b2;
   border-bottom: 4px solid #7294b2;
@@ -230,9 +230,9 @@ form button {
 .pink-background {
   background: linear-gradient(
     to top,
-    rgba(214, 182, 194, 1),
-    rgba(214, 182, 194, 0.1),
-    rgba(214, 182, 194, 1)
+    rgba(239, 209, 219, 1),
+    rgba(239, 209, 219, 0.1),
+    rgba(239, 209, 219, 1)
   );
 }
 .blue-background {
@@ -250,32 +250,6 @@ form button {
 }
 .bold {
   font-weight: bold;
-}
-
-/*====Background Image Scrolls====*/
-.scroll {
-  position: static;
-  background-attachment: scroll;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: grid;
-  margin: 0px;
-  justify-items: center;
-}
-.scroll-lg {
-  height: 300px;
-}
-.scroll-md {
-  height: 200px;
-}
-.scroll-sm {
-  height: 100px;
-}
-.scroll-auto {
-  height: auto;
-  border: 4px solid #7294b2;
-  margin: 0 auto;
 }
 
 /*================= HOME PAGE ===================*/
@@ -500,12 +474,39 @@ form label.top input, form label.top select {
   font-size: 2rem;
   line-height: 1.9rem;
   padding: 20px;
-
 }
 .ft-page {
   text-align: center;
 }
 
+/*====Background Image Scrolls====*/
+.scroll {
+  position: static;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  margin: 0px;
+  justify-items: center;
+}
+.scroll-lg {
+  height: 300px;
+}
+.scroll-md {
+  height: 200px;
+}
+.scroll-sm {
+  height: 100px;
+}
+.scroll-auto {
+  height: auto;
+  border: 4px solid #7294b2;
+  margin: 0 auto;
+}
+.scroll-background {
+  height: 300px;
+}
 /*=======BACKGROUND SCROLL IMAGES======*/
 .dc-scroll {
   background-image: url("images/dcps.webp");
@@ -545,6 +546,9 @@ form label.top input, form label.top select {
 }
 .weath-scroll {
   background-image: url("images/cloudy.webp");
+}
+.mission-scroll {
+  background-image: url("images/hotel.webp");
 }
 .wedd-scroll {
   background-image: url("images/chair.jpg");

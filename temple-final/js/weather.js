@@ -21,7 +21,7 @@ function displayResults(data) {
     const wDiv = document.createElement("div");
     const wTitle = document.createElement("h2");
     const image = document.createElement("img");
-    const dayTemp = document.createElement("aside");
+    const dayTemp = document.createElement("form");
     const wDesc = document.createElement("p");
     const humidity = document.createElement("p");
     const forecastDate = new Intl.DateTimeFormat("en-US", {
