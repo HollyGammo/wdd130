@@ -22,7 +22,6 @@
   .feature-para {
     padding: 2rem 8rem;
   }
-
   
   /*====Contact====*/
   .grid-two {
@@ -93,6 +92,10 @@
  /*===PICTURE SLIDER===*/
  .slide-container {
   margin: 20px auto 20px;
+}
+.text {
+  text-align: center;
+  font-size: 2rem;
 }
 
 /*---Background Image Scrolls---*/

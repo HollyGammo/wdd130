@@ -380,7 +380,19 @@ form label.top input, form label.top select {
   text-decoration: underline;
 }
 
-/*=========RESERVATIONS PAGE============*/
+/*=========MISSIONARY PAGE============*/
+.feat-opt {
+  max-width: 320px;
+  margin: 0 auto;
+  line-height: 1.3rem;
+  padding: 0 0 20px 20px;
+}
+.suite-head {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px;
+  line-height: 2rem;
+}
 
 /*=============SERVICES PAGE=============*/
 .service-grid {
@@ -474,7 +486,7 @@ form label.top input, form label.top select {
   cursor: pointer;
   position: absolute;
   color: white;
-  top: 93%;
+  top: 96%;
   font-size: 18px;
   font-weight: 900;
   padding: 1px 8px;
