@@ -148,11 +148,13 @@ button {
   padding: 8px 15px;
   box-shadow: 0px 0px 5px 3px #ffffff;
   text-shadow: 1px 1px 1px black;
+  font-weight: bold;
 }
 button:hover {
   color: #7294b2;
   background-color: #fff;
   text-shadow: none;
+  font-weight: bold;
 }
 .serv-button {
   margin: 10px auto 25px;
@@ -299,14 +301,16 @@ button:hover {
 }
 /*Alert Banner*/
 #weatherAlerts {
-  color: rgb(167, 72, 165);
+  color: rgb(142, 102, 125);
   text-align: center;
   padding: 30px 0 20px;
+  font-weight: bold;
 }
 #close {
   padding: 1px 5px;
-  border: 2px solid rgb(183, 93, 181);
-  color: rgb(183, 93, 181);
+  border: 2px solid rgb(142, 102, 125);
+  color: rgb(142, 102, 125);
+  font-weight: bold;
 }
 /*====Featured Temple on Homepage====*/
 .feature-para {
@@ -382,7 +386,10 @@ form label.top input, form label.top select {
 .underline a {
   text-decoration: underline;
 }
-
+/*=========RESERVATION PAGE============*/
+.res-form {
+  padding: 15px;
+}
 /*=========MISSIONARY PAGE============*/
 .feat-opt {
   max-width: 320px;
