@@ -16,6 +16,11 @@
   button {
     font-size: 1.2rem;
   }
+
+  /*===STYLING===*/
+  .sec-title {
+    font-size: 2.5rem;
+  }
   .heading-banner {
     font-size: 2em;
     text-align: right;
@@ -69,17 +74,6 @@
     text-align: left;
   }
 
-  /*===Scroll====*/
-  .scroll-lg {
-    height: 400px;
-  }
-  .scroll-md {
-    height: 275px;
-  }
-  .scroll-sm {
-    height: 150px;
-  }
-
   /*====Welcome====*/
   .little-image, .pill {
     float: left;
@@ -128,6 +122,37 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 
+  /*===PICTURE SLIDER===*/
+  .slide-container {
+    margin: 20px 40px 20px;
+    padding: 45px 45px 20px 45px;
+  }
+  .prev, .next {
+    top: 50%;
+  }  
+  .next {
+    right: -20px;
+  }
+  .prev {
+    left: -20px;
+  }
+  .text {
+    font-size: 2rem;
+    font-family: "Gwendolyn", cursive;
+    padding-top: 5px;
+  }
+
+  /*===Scroll====*/
+  .scroll-lg {
+    height: 400px;
+  }
+  .scroll-md {
+    height: 275px;
+  }
+  .scroll-sm {
+    height: 150px;
+  }
+
   /*=====BACKGROUND SCROLL IMAGES=====*/
   .dc-scroll {
     background-image: url("images/dcpm.webp");
@@ -166,9 +191,12 @@
     background-image: url("images/japanm.webp");
   }
   .weath-scroll {
-    background-image: url("images/cloudy.webp");
+    background-image: url("images/cloudym.webp");
   }
   .wedd-scroll {
-    background-image: url("images/chair.jpg");
+    background-image: url("images/chairm.webp");
+  }
+  .mission-scroll {
+    background-image: url("images/theinnm.webp");
   }
 }

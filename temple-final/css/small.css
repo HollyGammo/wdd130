@@ -26,33 +26,6 @@ h4 {
 p {
   line-height: 1.2rem;
 }
-.block {
-  margin: 0 auto;
-}
-.wh {
-  padding: 50px;
-  text-align: center;
-}
-.scroll-title {
-  color: white;
-  text-shadow: 2px 5px 5px black;
-  line-height: 1.7rem;
-  font-size: 3rem;
-  text-align: center;
-  padding: 50px 0 20px;
-}
-.sec-title {
-  line-height: 2rem;
-  font-size: 2.5rem;
-  text-align: center;
-  padding: 50px 20px 20px 20px;
-}
-.sec-image {
-  line-height: 2.3rem;
-  font-size: 2.2rem;
-  text-align: center;
-  padding-bottom: 20px;
-}
 
 /*====Top Header Section====*/
 header {
@@ -181,7 +154,7 @@ button:hover {
   background-color: #fff;
 }
 .serv-button {
-  margin: 10px auto 50px;
+  margin: 10px auto 25px;
 }
 .style-button {
   margin-top: 130px;
@@ -189,11 +162,9 @@ button:hover {
 .reg-button {
   margin-top: 10px;
 }
-
 /*like Button*/
 .temple-cards button {
   border: 2px solid rgb(65, 81, 109);
-  font-size: 1rem;
   padding: 4px 12px;
   border-radius: 0;
   margin-bottom: 30px;
@@ -243,7 +214,39 @@ button:hover {
 .bold {
   font-weight: bold;
 }
-
+.box-shadow {
+  box-shadow: 0px 0px 5px 5px rgb(81, 94, 114);
+}
+.outside {
+  padding: 15px;
+}
+.block {
+  margin: 0 auto;
+}
+.wh {
+  padding: 50px;
+  text-align: center;
+}
+.scroll-title {
+  color: white;
+  text-shadow: 2px 5px 5px black;
+  line-height: 1.7rem;
+  font-size: 3rem;
+  text-align: center;
+  padding: 50px 0 20px;
+}
+.sec-title {
+  line-height: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px 15px 20px 15px;
+}
+.sec-image {
+  line-height: 2.3rem;
+  font-size: 2.2rem;
+  text-align: center;
+  padding-bottom: 20px;
+}
 /*================= HOME PAGE ===================*/
 /*Welcome on Homepage*/
 .little-image {
@@ -471,6 +474,38 @@ form label.top input, form label.top select {
   text-align: center;
 }
 
+ /*=======PICTURE SLIDER==========*/
+ .slide-container {
+  max-width: 850px;
+  padding: 15px;
+  position: relative;
+  margin: 20px 0px 20px;
+}
+.mySlides img {
+  width: 100%;
+  border: 4px solid #7294b2;
+  object-fit: cover;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  top: 93%;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 1px 8px;
+}
+.text {
+  text-align: center;
+  font-size: .8rem;
+}
+.next {
+  right: 3rem;
+}
+.prev {
+  left: 3rem;
+}
+
 /*====Background Image Scrolls====*/
 .scroll {
   position: static;
@@ -537,11 +572,11 @@ form label.top input, form label.top select {
   background-image: url("images/cloudy.webp");
 }
 .weath-scroll {
-  background-image: url("images/cloudy.webp");
+  background-image: url("images/cloudys.webp");
 }
 .mission-scroll {
-  background-image: url("images/hotel.webp");
+  background-image: url("images/theinns.webp");
 }
 .wedd-scroll {
-  background-image: url("images/chair.jpg");
+  background-image: url("images/chairs.webp");
 }
