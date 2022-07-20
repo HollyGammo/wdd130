@@ -7,7 +7,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const rooms = jsonObject["rooms"];
-    console.log(jsonObject);
+    //console.log(jsonObject);
     rooms.forEach(innRooms);
   }); 
 

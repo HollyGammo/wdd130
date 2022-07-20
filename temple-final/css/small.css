@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0;
   font-family: "Domine", serif;
-  color: #000000;
   font-size: 15px;
 }
 h1 {
@@ -250,6 +248,11 @@ button:hover {
   text-align: center;
   padding-bottom: 20px;
 }
+.sub {
+  font-size: 2rem;
+  text-align: center;
+  margin: -20px auto 20px;
+}
 /*================= HOME PAGE ===================*/
 /*Welcome on Homepage*/
 .little-image {
@@ -296,17 +299,14 @@ button:hover {
 }
 /*Alert Banner*/
 #weatherAlerts {
-  /*display: none;*/
+  color: rgb(167, 72, 165);
   text-align: center;
-  padding: 8px;
-}
-.alert-event {
-  font-size: 1.8rem;
-  font-weight: bolder;
+  padding: 30px 0 20px;
 }
 #close {
-  border: 1px solid black;
-  padding: 1px 2px;
+  padding: 1px 5px;
+  border: 2px solid rgb(183, 93, 181);
+  color: rgb(183, 93, 181);
 }
 /*====Featured Temple on Homepage====*/
 .feature-para {
