@@ -542,7 +542,7 @@ form label.top input, form label.top select {
   background-image: url("images/twins-s.webp");
 }
 .feature-scroll {
-  background-image: url("images/dcday.jpeg");
+  background-image: url("images/dcdays.webp");
 }
 .temple-scroll {
   background-image: url("images/tucsons.webp");
@@ -559,6 +559,9 @@ form label.top input, form label.top select {
 .poca-scroll {
   background-image: url("images/poca-s.webp");
 }
+.amen-scroll {
+  background-image: url("images/amenities-s.webp");
+}
 .lob-scroll {
   background-image: url("images/lobby-s.webp");
 }
@@ -569,7 +572,7 @@ form label.top input, form label.top select {
   background-image: url("images/orlando-s.webp");
 }
 .room-scroll {
-  background-image: url("images/cloudy.webp");
+  background-image: url("images/japans.webp");
 }
 .weath-scroll {
   background-image: url("images/cloudys.webp");

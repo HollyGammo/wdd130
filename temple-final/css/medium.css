@@ -1,7 +1,7 @@
 @media only screen and (min-width: 600px) {
   body {
     margin: 0px auto;
-    max-width: 800px;
+    max-width: 900px;
   }
   header {
     padding: 20px 60px;
@@ -161,7 +161,7 @@
     background-image: url("images/twins-m.webp");
   }
   .feature-scroll {
-    background-image: url("images/dcday.jpeg");
+    background-image: url("images/dcdaym.webp");
   }
   .temple-scroll {
     background-image: url("images/tucsonm.webp");
@@ -177,6 +177,9 @@
   }
   .poca-scroll {
     background-image: url("images/poca-m.webp");
+  }
+  .amen-scroll {
+    background-image: url("images/amenities-m.webp");
   }
   .lob-scroll {
     background-image: url("images/lobby-m.webp");
